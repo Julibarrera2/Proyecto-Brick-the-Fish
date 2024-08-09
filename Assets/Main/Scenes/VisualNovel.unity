@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1819,9 +1819,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -270.5, y: -142.29999}
-  m_SizeDelta: {x: -540.9314, y: -284.58826}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -327.3, y: 12.4}
+  m_SizeDelta: {x: -752.2944, y: 24.761932}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1283071395
 MonoBehaviour:
@@ -1966,7 +1966,7 @@ GameObject:
   - component: {fileID: 1309931730}
   - component: {fileID: 1309931729}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Octavia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1988,7 +1988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -172.9, y: -28.6}
+  m_AnchoredPosition: {x: -173, y: -37}
   m_SizeDelta: {x: 290.40808, y: 309.03168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309931729
