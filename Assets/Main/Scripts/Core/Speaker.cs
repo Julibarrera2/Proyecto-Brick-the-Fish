@@ -1,18 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Speaker : MonoBehaviour
+[CreateAssetMenu(fileName = "New Speaker", menuName = "Data/New Speaker")]
+[System.Serializable]
+public class Speaker : ScriptableObject
+
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string speakerName;
+    public Color textColor;
 }
