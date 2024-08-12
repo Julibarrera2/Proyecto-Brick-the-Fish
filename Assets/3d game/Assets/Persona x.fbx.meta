@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: c86e1eb04a190354eba2d1f456a0982b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: boton
+    100002: camisa
+    100004: camisa.001
+    100006: camisa.002
+    100008: camisa.003
+    100010: camisa.004
+    100012: corbata
+    100014: cuello saco
+    100016: cuerpo base
+    100018: medias
+    100020: //RootNode
+    100022: pollera
+    100024: saco
+    100026: zapas
+    400000: boton
+    400002: camisa
+    400004: camisa.001
+    400006: camisa.002
+    400008: camisa.003
+    400010: camisa.004
+    400012: corbata
+    400014: cuello saco
+    400016: cuerpo base
+    400018: medias
+    400020: //RootNode
+    400022: pollera
+    400024: saco
+    400026: zapas
+    2100000: piel
+    2100002: corbata
+    2100004: pollera
+    2100006: camisa
+    2100008: saco
+    2100010: detalle saco
+    2100012: zapatillas
+    2100014: detalle camisa
+    2100016: boton.001
+    2300000: boton
+    2300002: camisa
+    2300004: camisa.001
+    2300006: camisa.002
+    2300008: camisa.003
+    2300010: camisa.004
+    2300012: corbata
+    2300014: cuello saco
+    2300016: cuerpo base
+    2300018: medias
+    2300020: pollera
+    2300022: saco
+    2300024: zapas
+    3300000: boton
+    3300002: camisa
+    3300004: camisa.001
+    3300006: camisa.002
+    3300008: camisa.003
+    3300010: camisa.004
+    3300012: corbata
+    3300014: cuello saco
+    3300016: cuerpo base
+    3300018: medias
+    3300020: pollera
+    3300022: saco
+    3300024: zapas
+    4300000: cuerpo base
+    4300002: corbata
+    4300004: pollera
+    4300006: camisa
+    4300008: saco
+    4300010: cuello saco
+    4300012: zapas
+    4300014: medias
+    4300016: camisa.001
+    4300018: camisa.002
+    4300020: camisa.003
+    4300022: camisa.004
+    4300024: boton
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
