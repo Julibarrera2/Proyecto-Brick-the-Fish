@@ -13,38 +13,7 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: No, nooo, no me digas que le das a Octavia.
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
   - text: '...'
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-  - text: Nooooo boluda, no podes, Vos sabes quien es su mejor amiga?
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
-  - text: No ni idea, quien es?
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-  - text: FISH!!!
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
-  - text: Quien chota es FISH?
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-  - text: "Top tres personas m\xE1s odiadas de T.O.T.A High School? Literalmente estuvo
-      en un video de toxo moroxo como top 10 los peores psic\xF3patas del mundo?"
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
-  - text: Ni puta idea la verdad.
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-  - text: "No te acordas que un dia te conte de una chica que le dijo a su amiga que
-      ella la estaba abandonando como su pap\xE1 cuando solamente le estaba cortando
-      el celular?"
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
-  - text: Nop.
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-  - text: "Muy segura que se comi\xF3 al gordo de Thiago Hormona."
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
-  - text: Esa no era Jazmin?
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-  - text: "Creo que hubo una especie de tri\xE1ngulo amoroso ah\xED."
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
-  - text: Sisi, ahora me acuerdo de ella, Lpmmmm que bajonnnnn.
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-  - text: "Real, igualmente eso no es lo peor\u2026."
-    speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
-  backgorund: {fileID: 21300000, guid: 52cab33aac63f014e936b18ba6986c53, type: 3}
-  nextScene: {fileID: 11400000, guid: 3532118b9a7b8964ab250f2c209b61e7, type: 2}
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+  backgorund: {fileID: 21300000, guid: f515a76e99d180749a47fbcd37be82ea, type: 3}
+  nextScene: {fileID: 11400000, guid: ee827b04b8337934a9269f5817d8adc2, type: 2}

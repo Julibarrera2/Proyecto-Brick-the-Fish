@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Fish
   m_EditorClassIdentifier: 
   speakerName: Fish
-  textColor: {r: 0.41006586, g: 0.44707724, b: 0.8962264, a: 1}
+  textColor: {r: 0.26352793, g: 0.30876467, b: 0.8867924, a: 1}
