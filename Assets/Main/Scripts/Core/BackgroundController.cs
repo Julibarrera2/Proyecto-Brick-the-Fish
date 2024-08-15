@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SpriteSwitcher : MonoBehaviour
+public class BackgroundController : MonoBehaviour
 {
     public bool IsSwitched = false;
     public Image background1;
