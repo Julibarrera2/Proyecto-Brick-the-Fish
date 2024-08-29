@@ -903,7 +903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScene: {fileID: 11400000, guid: 3ecc5ebca49c98549b6e34361ab74ffa, type: 2}
   bottomBar: {fileID: 1595491555}
-  backgroundController: {fileID: 1313469590}
+  backgroundController: {fileID: 0}
 --- !u!1 &1313469587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1185,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1746771945}
+  - component: {fileID: 1746771946}
+  - component: {fileID: 1746771947}
   m_Layer: 5
   m_Name: Octavia
   m_TagString: Untagged
@@ -1213,3 +1215,31 @@ RectTransform:
   m_AnchoredPosition: {x: -139.2, y: -32}
   m_SizeDelta: {x: 188.49951, y: 327.5016}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1746771946
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746771944}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!114 &1746771947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746771944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf27f14065d145049b84e7c6b0ef54e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsSwitched: 0
+  background1: {fileID: 0}
+  backgorund2: {fileID: 0}
+  animator: {fileID: 0}

@@ -4,8 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - currentScene: {instanceID: 0}
+  - currentScene: {fileID: 11400000, guid: 3ecc5ebca49c98549b6e34361ab74ffa, type: 2}
   - bottomBar: {instanceID: 0}
+  - backgroundController: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
