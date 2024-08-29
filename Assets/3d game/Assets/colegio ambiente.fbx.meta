@@ -1,84 +1,73 @@
 fileFormatVersion: 2
-guid: c86e1eb04a190354eba2d1f456a0982b
+guid: 59e3ecb39330a9f4e83391b00628b08e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: boton
-    100002: camisa
-    100004: camisa.001
-    100006: camisa.002
-    100008: camisa.003
-    100010: camisa.004
-    100012: corbata
-    100014: cuello saco
-    100016: cuerpo base
-    100018: medias
-    100020: //RootNode
-    100022: pollera
-    100024: saco
-    100026: zapas
-    400000: boton
-    400002: camisa
-    400004: camisa.001
-    400006: camisa.002
-    400008: camisa.003
-    400010: camisa.004
-    400012: corbata
-    400014: cuello saco
-    400016: cuerpo base
-    400018: medias
-    400020: //RootNode
-    400022: pollera
-    400024: saco
-    400026: zapas
-    2100000: piel
-    2100002: corbata
-    2100004: pollera
-    2100006: camisa
-    2100008: saco
-    2100010: detalle saco
-    2100012: zapatillas
-    2100014: detalle camisa
-    2100016: boton.001
-    2300000: boton
-    2300002: camisa
-    2300004: camisa.001
-    2300006: camisa.002
-    2300008: camisa.003
-    2300010: camisa.004
-    2300012: corbata
-    2300014: cuello saco
-    2300016: cuerpo base
-    2300018: medias
-    2300020: pollera
-    2300022: saco
-    2300024: zapas
-    3300000: boton
-    3300002: camisa
-    3300004: camisa.001
-    3300006: camisa.002
-    3300008: camisa.003
-    3300010: camisa.004
-    3300012: corbata
-    3300014: cuello saco
-    3300016: cuerpo base
-    3300018: medias
-    3300020: pollera
-    3300022: saco
-    3300024: zapas
-    4300000: cuerpo base
-    4300002: corbata
-    4300004: pollera
-    4300006: camisa
-    4300008: saco
-    4300010: cuello saco
-    4300012: zapas
-    4300014: medias
-    4300016: camisa.001
-    4300018: camisa.002
-    4300020: camisa.003
-    4300022: camisa.004
-    4300024: boton
+    100000: agujeroLocker
+    100002: //RootNode
+    100004: ElcositoDelcandado
+    100006: Gordin_right
+    100008: Locker8
+    100010: marco ventana
+    100012: marcoDelLocker
+    100014: pared colegio
+    100016: pared colegio2
+    100018: piso colegio
+    100020: vidrio ventanas
+    100022: visagras
+    400000: agujeroLocker
+    400002: //RootNode
+    400004: ElcositoDelcandado
+    400006: Gordin_right
+    400008: Locker8
+    400010: marco ventana
+    400012: marcoDelLocker
+    400014: pared colegio
+    400016: pared colegio2
+    400018: piso colegio
+    400020: vidrio ventanas
+    400022: visagras
+    2100000: pared ladrillo rosa.002
+    2100002: piso
+    2100004: marco ventana
+    2100006: vidrio
+    2100008: Gordins
+    2100010: cuerda
+    2100012: cortinas
+    2100014: color de los lockers
+    2300000: agujeroLocker
+    2300002: ElcositoDelcandado
+    2300004: Gordin_right
+    2300006: Locker8
+    2300008: marco ventana
+    2300010: marcoDelLocker
+    2300012: pared colegio
+    2300014: pared colegio2
+    2300016: piso colegio
+    2300018: vidrio ventanas
+    2300020: visagras
+    3300000: agujeroLocker
+    3300002: ElcositoDelcandado
+    3300004: Gordin_right
+    3300006: Locker8
+    3300008: marco ventana
+    3300010: marcoDelLocker
+    3300012: pared colegio
+    3300014: pared colegio2
+    3300016: piso colegio
+    3300018: vidrio ventanas
+    3300020: visagras
+    4300000: pared colegio2
+    4300002: pared colegio
+    4300004: piso colegio
+    4300006: vidrio ventanas
+    4300008: Gordin_right
+    4300010: marco ventana
+    4300012: agujeroLocker
+    4300014: ElcositoDelcandado
+    4300016: Locker8
+    4300018: marcoDelLocker
+    4300020: visagras
   externalObjects: {}
   materials:
     importMaterials: 1
