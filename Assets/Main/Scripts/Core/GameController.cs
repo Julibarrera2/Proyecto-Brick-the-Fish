@@ -6,7 +6,7 @@ public class GameController : MonoBehaviour
 {
     public StoryScene currentScene;
     public BottomBarController bottomBar;
-    public BackgroundController backgroundController;
+    public SpriteSwitcher backgroundController;
     void Start()
     {
         bottomBar.PlayScene(currentScene);
