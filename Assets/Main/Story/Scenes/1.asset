@@ -15,5 +15,6 @@ MonoBehaviour:
   sentences:
   - text: '...'
     speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
   backgorund: {fileID: 21300000, guid: f515a76e99d180749a47fbcd37be82ea, type: 3}
   nextScene: {fileID: 11400000, guid: ee827b04b8337934a9269f5817d8adc2, type: 2}

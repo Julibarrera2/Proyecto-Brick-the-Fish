@@ -34,4 +34,5 @@ public class StoryScene : ScriptableObject
             }
         }
     }
+    public class GameScene : ScriptableObject { }
 }

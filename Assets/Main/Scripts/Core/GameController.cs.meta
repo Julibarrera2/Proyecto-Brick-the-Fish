@@ -6,6 +6,7 @@ MonoImporter:
   defaultReferences:
   - currentScene: {instanceID: 0}
   - bottomBar: {instanceID: 0}
+  - backgroundController: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
