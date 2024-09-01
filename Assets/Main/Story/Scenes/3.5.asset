@@ -10,17 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1d7c97d2ea66cf459e782954c6eb474, type: 3}
-  m_Name: 2
+  m_Name: 3.5
   m_EditorClassIdentifier: 
   sentences:
   - text: '...'
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-    actions: []
-  - text: '...'
     speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
     actions: []
-  - text: '...'
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-    actions: []
-  backgorund: {fileID: 21300000, guid: 5aa486e8f75ddac45910c8e41d2e4c30, type: 3}
-  nextScene: {fileID: 11400000, guid: 983e6f9a9025c7c40ba20b70e109fd44, type: 2}
+  backgorund: {fileID: 21300000, guid: 52cab33aac63f014e936b18ba6986c53, type: 3}
+  nextScene: {fileID: 11400000, guid: af6f6dc873e10de43b6b6eebd567b016, type: 2}
