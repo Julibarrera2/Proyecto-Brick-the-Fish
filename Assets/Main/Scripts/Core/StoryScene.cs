@@ -14,6 +14,7 @@ public class StoryScene : ScriptableObject
     {
         public string text;
         public Speaker speaker;
+        public List<Action> actions;
 
         [System.Serializable]
 
