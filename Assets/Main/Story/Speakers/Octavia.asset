@@ -14,3 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Octavia
   textColor: {r: 0.25720897, g: 0.6415094, b: 0.2623422, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 83d4fcb71f8bfea4cbbc5d8d7895e30b, type: 3}
+  - {fileID: 21300000, guid: a0f28f979389389438253bd90ac86b8c, type: 3}
+  prefab: {fileID: 114039860411501250, guid: 539ab1c06428d3c40bb8dbe264f4cdac, type: 3}
