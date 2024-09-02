@@ -53,9 +53,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afc8b805880983847a87d8dee84e980f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsSwitched: 0
-  image1: {fileID: 0}
-  image2: {fileID: 0}
+  isSwitched: 0
+  image1: {fileID: 4565695262998044021}
+  image2: {fileID: 4565695263335988062}
 --- !u!95 &95789640245143934
 Animator:
   serializedVersion: 3

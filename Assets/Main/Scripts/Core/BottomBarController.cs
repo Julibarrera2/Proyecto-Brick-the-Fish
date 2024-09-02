@@ -57,7 +57,7 @@ public class BottomBarController : MonoBehaviour
 
     public bool IsCompleted()
     {
-        return state == State.COMPLETED; 
+        return state == State.COMPLETED;
     }
 
     public bool IsLastSentence()
@@ -76,7 +76,7 @@ public class BottomBarController : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
             if (++wordIndex == text.Length)
             {
-                state = State.COMPLETED ; 
+                state = State.COMPLETED;
                 break;
             }
         }
