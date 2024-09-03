@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 25, z: -20}
+  m_FollowOffset: {x: 0, y: 16, z: -28}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -467,7 +467,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.38564095, y: -0.010064981, z: 0.0042071687, w: 0.9225845}
+  m_LocalRotation: {x: 0.19242258, y: -0.0019467096, z: 0.00038172526, w: 0.9813102}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -552,8 +552,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.38564098, y: -0.010064886, z: 0.0042069396, w: 0.9225845}
-  m_LocalPosition: {x: -73.4128, y: 29.18, z: -1.7471485}
+  m_LocalRotation: {x: 0.1924226, y: -0.0019467073, z: 0.0003817146, w: 0.9813102}
+  m_LocalPosition: {x: -73.4128, y: 20.18, z: -9.7471485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 25, z: -20}
+  m_FollowOffset: {x: 0, y: 16, z: -28}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -783,8 +783,8 @@ MonoBehaviour:
   m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0
   m_VerticalDamping: 0
-  m_ScreenX: 0.5170279
-  m_ScreenY: 0.6436652
+  m_ScreenX: 0.503096
+  m_ScreenY: 0.682233
   m_DeadZoneWidth: 0.16099066
   m_DeadZoneHeight: 0
   m_SoftZoneWidth: 0.8
@@ -805,7 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 25, z: -20}
+  m_FollowOffset: {x: 0, y: 16, z: -28}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -927,7 +927,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130832309}
-  m_LocalRotation: {x: 0.40016305, y: -0.000000061071844, z: 0.000000026666873, w: 0.91644394}
+  m_LocalRotation: {x: 0.22139049, y: -4.4379204e-25, z: 1.00751454e-25, w: 0.9751853}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1004,7 +1004,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643064144}
-  m_LocalRotation: {x: 0.43318874, y: 0.000000015508167, z: -0.000000007453611, w: 0.90130323}
+  m_LocalRotation: {x: 0.25666794, y: -0.000000014793077, z: 0.0000000039285144, w: 0.9664997}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1094,9 +1094,9 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
-    m_AccelTime: 0
-    m_DecelTime: 0
+    m_MaxSpeed: 400
+    m_AccelTime: 0.1
+    m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
     m_InvertInput: 0
@@ -1124,8 +1124,8 @@ MonoBehaviour:
   m_Orbits:
   - m_Height: 14
     m_Radius: 12
-  - m_Height: 25
-    m_Radius: 20
+  - m_Height: 16
+    m_Radius: 28
   - m_Height: -1.6
     m_Radius: 12
   m_LegacyHeadingBias: 3.4028235e+38
@@ -1141,7 +1141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725828091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -73.4128, y: 29.18, z: -1.7471485}
+  m_LocalPosition: {x: -73.4128, y: 20.18, z: -9.7471485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1643064146}
@@ -1198,9 +1198,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1792839515}
   cam: {fileID: 534669905}
-  speed: 15
+  speed: 20
   gravity: -9.81
-  jumpHeight: 3
+  jumpHeight: 6
   groundCheck: {fileID: 1890257791}
   groundDistance: 0.4
   groundMask:
