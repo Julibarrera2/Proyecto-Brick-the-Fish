@@ -760,7 +760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScene: {fileID: 11400000, guid: 3ecc5ebca49c98549b6e34361ab74ffa, type: 2}
   bottomBar: {fileID: 1595491555}
-  backgroundController: {fileID: 0}
+  backgroundController: {fileID: 1313469590}
 --- !u!95 &1116451109
 Animator:
   serializedVersion: 3
@@ -863,7 +863,6 @@ GameObject:
   - component: {fileID: 1313469588}
   - component: {fileID: 1313469589}
   - component: {fileID: 1313469590}
-  - component: {fileID: 1313469591}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -925,24 +924,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf27f14065d145049b84e7c6b0ef54e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isSwitched: 0
+  IsSwitched: 0
   image1: {fileID: 1252764351}
   image2: {fileID: 52771534}
---- !u!114 &1313469591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313469587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2b1ebdd0dfc094fb7211415fa5d473, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 3ecc5ebca49c98549b6e34361ab74ffa, type: 2}
-  bottomBar: {fileID: 1595491555}
-  backgroundController: {fileID: 1313469590}
 --- !u!1 &1330058816
 GameObject:
   m_ObjectHideFlags: 0
