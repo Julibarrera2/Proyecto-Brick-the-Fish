@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8755310807168538048}
   - component: {fileID: 8755310807167735270}
   - component: {fileID: 8755310807166637862}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: marcoDelLocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 8755310807168538050}
   - component: {fileID: 8755310807167735264}
   - component: {fileID: 8755310807166637856}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pared colegio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 8755310807168538052}
   - component: {fileID: 8755310807167735274}
   - component: {fileID: 8755310807166637866}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Locker8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 8755310807168538054}
   - component: {fileID: 8755310807167735268}
   - component: {fileID: 8755310807166637860}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: marco ventana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 8755310807168538056}
   - component: {fileID: 8755310807167735278}
   - component: {fileID: 8755310807166637870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ElcositoDelcandado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 8755310807168538058}
   - component: {fileID: 8755310807167735272}
   - component: {fileID: 8755310807166637864}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gordin_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 8755310807168538060}
   - component: {fileID: 8755310807167735276}
   - component: {fileID: 8755310807166637868}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: agujeroLocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,9 +552,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8755310807168538062}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: colegio ambiente
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 8755310807168538072}
   - component: {fileID: 8755310807167735294}
   - component: {fileID: 8755310807166637886}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: vidrio ventanas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 8755310807168538074}
   - component: {fileID: 8755310807167735288}
   - component: {fileID: 8755310807166637880}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: visagras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 8755310807168538076}
   - component: {fileID: 8755310807167735266}
   - component: {fileID: 8755310807166637858}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pared colegio2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -826,7 +826,8 @@ GameObject:
   - component: {fileID: 8755310807168538078}
   - component: {fileID: 8755310807167735292}
   - component: {fileID: 8755310807166637884}
-  m_Layer: 0
+  - component: {fileID: 8021633438066287977}
+  m_Layer: 9
   m_Name: piso colegio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -893,3 +894,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8021633438066287977
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755310807168633342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: 59e3ecb39330a9f4e83391b00628b08e, type: 3}
