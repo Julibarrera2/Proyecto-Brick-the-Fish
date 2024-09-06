@@ -1,0 +1,1133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2779362190857611858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3928902714070554057}
+  - component: {fileID: 8152035937456621490}
+  - component: {fileID: 7850180245492003101}
+  m_Layer: 0
+  m_Name: PISO CAFETERIA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3928902714070554057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2779362190857611858}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -40.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6758541465286190861}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8152035937456621490
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2779362190857611858}
+  m_Mesh: {fileID: 4300000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+--- !u!23 &7850180245492003101
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2779362190857611858}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3655279276524903443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6510439723865197807}
+  - component: {fileID: 217029191540306705}
+  - component: {fileID: 5529066603929495812}
+  m_Layer: 0
+  m_Name: PISO CAFETERIA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6510439723865197807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3655279276524903443}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -40.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4417654816980941131}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &217029191540306705
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3655279276524903443}
+  m_Mesh: {fileID: 4300000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+--- !u!23 &5529066603929495812
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3655279276524903443}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &4417654816981296491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4417654816980941131}
+  - component: {fileID: 4417654816978073963}
+  - component: {fileID: 4417654816979041195}
+  m_Layer: 0
+  m_Name: PISO CAFETERIA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4417654816980941131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417654816981296491}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6510439723865197807}
+  - {fileID: 6758541465286190861}
+  - {fileID: 8184411366957716235}
+  - {fileID: 5998032831674472215}
+  - {fileID: 3099556859201802085}
+  - {fileID: 4804618650920208444}
+  - {fileID: 8360620657417659719}
+  - {fileID: 6709389305396573764}
+  - {fileID: 7542228490166177160}
+  - {fileID: 4668417129915995337}
+  - {fileID: 589233561996582373}
+  - {fileID: 4748076109635035414}
+  - {fileID: 3082756930234547725}
+  - {fileID: 6629239674232710682}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4417654816978073963
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417654816981296491}
+  m_Mesh: {fileID: 4300000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+--- !u!23 &4417654816979041195
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417654816981296491}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &5510667666751100262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6758541465286190861}
+  - component: {fileID: 343079828229500306}
+  - component: {fileID: 4592050131052326006}
+  m_Layer: 0
+  m_Name: PISO CAFETERIA (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6758541465286190861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5510667666751100262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 51.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3928902714070554057}
+  m_Father: {fileID: 4417654816980941131}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &343079828229500306
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5510667666751100262}
+  m_Mesh: {fileID: 4300000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+--- !u!23 &4592050131052326006
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5510667666751100262}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c3c6048eff4919a4b80b9bc927a28aa6, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &589233561996707685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_Name
+      value: POSTER 2 CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.692281
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 80.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c604e5161a6188e45bfc8d9841a276c3, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c19b75cc49d8284ca486c6118b00f43, type: 3}
+--- !u!4 &589233561996582373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2c19b75cc49d8284ca486c6118b00f43,
+    type: 3}
+  m_PrefabInstance: {fileID: 589233561996707685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3082756930234934413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_Name
+      value: POSTER 4 CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 52.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2671aa4e4bc47334aa24c60b8ebf8a08, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61feb12f97caef54bb7ed93653eb76d1, type: 3}
+--- !u!4 &3082756930234547725 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 61feb12f97caef54bb7ed93653eb76d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 3082756930234934413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3099556859202196965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_Name
+      value: PARED VENTANA CHICA CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.804523
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a6a8ddc069e93f428932c7d04631224, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+--- !u!4 &3099556859201802085 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 3099556859202196965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4668417129915862601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_Name
+      value: POSTER 1CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 63.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7537c6e9e04160545922050e6da7360c, type: 3}
+--- !u!4 &4668417129915995337 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 7537c6e9e04160545922050e6da7360c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4668417129915862601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4748076109635435414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_Name
+      value: POSTER 3 CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 76.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.692281
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 80.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fdb49a80a13d70a48816f8602856d82c, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7630bb2c260adff4b9fe505888f4a0d4, type: 3}
+--- !u!4 &4748076109635035414 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 7630bb2c260adff4b9fe505888f4a0d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4748076109635435414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4804618650920604348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_Name
+      value: PARED VENTANA CHICA CAFETERIA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.804523
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.188278
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a6a8ddc069e93f428932c7d04631224, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4dc53589f46c02045aed95d1af3292b1, type: 3}
+--- !u!4 &4804618650920208444 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 4dc53589f46c02045aed95d1af3292b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4804618650920604348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5998032831674076567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_Name
+      value: PARED LADRILLO CAFETERIA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 43.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 133.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5940497
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.99999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a6a8ddc069e93f428932c7d04631224, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+--- !u!4 &5998032831674472215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 5998032831674076567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6629239674233109658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_Name
+      value: TECHO
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 6.1232336e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -6.1232336e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34780112a075f184c9e5da4a914a77f3, type: 3}
+--- !u!4 &6629239674232710682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 34780112a075f184c9e5da4a914a77f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6629239674233109658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6709389305396178116
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_Name
+      value: PARED VENTANA GRANDE  CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a6a8ddc069e93f428932c7d04631224, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fead5d89845f5bf408dd54124a0765dd, type: 3}
+--- !u!4 &6709389305396573764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: fead5d89845f5bf408dd54124a0765dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6709389305396178116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7542228490165786376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_Name
+      value: RECEPCION CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 212f2d703e9e29b4986dcbcb33c77ba6, type: 3}
+--- !u!4 &7542228490166177160 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 212f2d703e9e29b4986dcbcb33c77ba6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7542228490165786376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8184411366957320587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_Name
+      value: PARED LADRILLO CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0442958
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a6a8ddc069e93f428932c7d04631224, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba, type: 3}
+--- !u!4 &8184411366957716235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 694adf2c74f1c3d4a828b6d44d55b8ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 8184411366957320587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8360620657417535431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4417654816980941131}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_Name
+      value: PUERTA CAFETERIA
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a6a8ddc069e93f428932c7d04631224, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63ad5fa5fb5272d408addd203abe3340, type: 3}
+--- !u!4 &8360620657417659719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63ad5fa5fb5272d408addd203abe3340,
+    type: 3}
+  m_PrefabInstance: {fileID: 8360620657417535431}
+  m_PrefabAsset: {fileID: 0}
