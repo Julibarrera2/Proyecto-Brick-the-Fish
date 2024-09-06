@@ -1,10 +1,14 @@
 fileFormatVersion: 2
-guid: 510c5c522516dcc4dbd64e6ffa484cd2
+guid: 34780112a075f184c9e5da4a914a77f3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+    2100000: blanco
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: TECHO COLEGIO
   externalObjects: {}
   materials:
     importMaterials: 1
