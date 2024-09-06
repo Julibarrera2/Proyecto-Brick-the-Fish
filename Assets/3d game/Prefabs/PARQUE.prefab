@@ -1,0 +1,621 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5529872240519995012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2816430550251083725}
+  - component: {fileID: 7973862838589698478}
+  - component: {fileID: 1516536656961820446}
+  m_Layer: 0
+  m_Name: PISO PARQUE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2816430550251083725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529872240519995012}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 41, y: 0, z: 61.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3629927125651955675}
+  m_Father: {fileID: 6922644481025840084}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &7973862838589698478
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529872240519995012}
+  m_Mesh: {fileID: 4300000, guid: a7afe9a33aa7fd547b039c767e0dda4e, type: 3}
+--- !u!23 &1516536656961820446
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529872240519995012}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a7afe9a33aa7fd547b039c767e0dda4e, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &6922644481025675252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6922644481025840084}
+  - component: {fileID: 6922644481026642932}
+  - component: {fileID: 6922644481027608884}
+  m_Layer: 0
+  m_Name: PISO PARQUE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6922644481025840084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922644481025675252}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -54.12009, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 467272386423994329}
+  - {fileID: 2816430550251083725}
+  - {fileID: 6046816831233226089}
+  - {fileID: 7720234268861718280}
+  - {fileID: 1606594295642527094}
+  - {fileID: 2962925901236738165}
+  - {fileID: 3215444121797772020}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6922644481026642932
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922644481025675252}
+  m_Mesh: {fileID: 4300000, guid: a7afe9a33aa7fd547b039c767e0dda4e, type: 3}
+--- !u!23 &6922644481027608884
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922644481025675252}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a7afe9a33aa7fd547b039c767e0dda4e, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &467272386423598425
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6922644481025840084}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_Name
+      value: PISO PARQUE 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 6.985402e-21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071638
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -6.985402e-21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7070497
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+--- !u!4 &467272386423994329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 467272386423598425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1606594295642918902
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6922644481025840084}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_Name
+      value: PARED LARGA LADRILO PARQUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.804524
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 82.645485
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 64d97ef67a800b743b614696dd77af82, type: 3}
+--- !u!4 &1606594295642527094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 64d97ef67a800b743b614696dd77af82,
+    type: 3}
+  m_PrefabInstance: {fileID: 1606594295642918902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2962925901236601589
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6922644481025840084}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_Name
+      value: PARED FONDO LARGA PARQUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 61.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.8045225
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f3b4e212d8c17e840835a1b5a8d0a3f5, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+--- !u!4 &2962925901236738165 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178,
+    type: 3}
+  m_PrefabInstance: {fileID: 2962925901236601589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3215444121797384308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6922644481025840084}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_Name
+      value: PARED FONDO LARGA PARQUE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.79997027
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f3b4e212d8c17e840835a1b5a8d0a3f5, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8acc8cc46036a9940967ab04876e5178, type: 3}
+--- !u!4 &3215444121797772020 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 8acc8cc46036a9940967ab04876e5178,
+    type: 3}
+  m_PrefabInstance: {fileID: 3215444121797384308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3629927125652079963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2816430550251083725}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_Name
+      value: PISO PARQUE 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 6.985402e-21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071638
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -6.985402e-21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7070497
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f8b0cb5c385ff44ea63546270ccac7f, type: 3}
+--- !u!4 &3629927125651955675 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 3f8b0cb5c385ff44ea63546270ccac7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3629927125652079963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6046816831233355753
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6922644481025840084}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_Name
+      value: PARED FONDO CHICA PARQUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 789ba397642446c478600197923e2881, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f3b4e212d8c17e840835a1b5a8d0a3f5, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 789ba397642446c478600197923e2881, type: 3}
+--- !u!4 &6046816831233226089 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 789ba397642446c478600197923e2881,
+    type: 3}
+  m_PrefabInstance: {fileID: 6046816831233355753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7720234268861580680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6922644481025840084}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_Name
+      value: PARED CHICA LADRILO PARQUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 51.518066
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7475158d21780a446ab8a0ac9fadf0b3, type: 3}
+--- !u!4 &7720234268861718280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 7475158d21780a446ab8a0ac9fadf0b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7720234268861580680}
+  m_PrefabAsset: {fileID: 0}
