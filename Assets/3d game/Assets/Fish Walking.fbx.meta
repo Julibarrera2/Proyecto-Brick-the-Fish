@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 3ffb52c1f87b4364f80539d168a51b76
+guid: 40388255ff6422943a241ce93eced747
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: BOCA
     100002: borde camisa
-    100004: boton
-    100006: cabeza.001
-    100008: camisa
-    100010: camisa.003
-    100012: corbata
-    100014: cuello camisa
-    100016: cuello saco
-    100018: cuerpo
+    100004: cabeza
+    100006: camisa
+    100008: camisa.003
+    100010: corbata
+    100012: cuello camisa
+    100014: cuello saco
+    100016: cuerpo
+    100018: //RootNode
     100020: mangas camisa
     100022: medias
     100024: mixamorig:Head
@@ -59,18 +59,17 @@ ModelImporter:
     100106: OJOS
     100108: pollera
     100110: saco
-    100112: //RootNode
-    100114: zapas
+    100112: zapas
     400000: BOCA
     400002: borde camisa
-    400004: boton
-    400006: cabeza.001
-    400008: camisa
-    400010: camisa.003
-    400012: corbata
-    400014: cuello camisa
-    400016: cuello saco
-    400018: cuerpo
+    400004: cabeza
+    400006: camisa
+    400008: camisa.003
+    400010: corbata
+    400012: cuello camisa
+    400014: cuello saco
+    400016: cuerpo
+    400018: //RootNode
     400020: mangas camisa
     400022: medias
     400024: mixamorig:Head
@@ -117,56 +116,53 @@ ModelImporter:
     400106: OJOS
     400108: pollera
     400110: saco
-    400112: //RootNode
-    400114: zapas
+    400112: zapas
     2100000: labios
     2100002: Material.002
     2100004: piel.002
     2100006: blanco.001
-    2100008: detalle camisa
-    2100010: boton.001
-    2100012: camisa
-    2100014: corbata
-    2100016: detalle saco
-    2100018: pollera
-    2100020: saco
-    2100022: zapatillas
-    2100024: cabeza fish
-    2100026: cola fish
+    2100008: cabeza fish
+    2100010: cola fish
+    2100012: zapatillas.001
+    2100014: saco.001
+    2100016: pollera.001
+    2100018: camisa.001
+    2100020: detalle camisa.001
+    2100022: detalle saco.001
+    2100024: corbata.001
+    2100026: camisa.002
     4300000: BOCA
     4300002: OJOS
     4300004: cuerpo
-    4300006: borde camisa
-    4300008: boton
-    4300010: camisa
-    4300012: camisa.003
-    4300014: corbata
-    4300016: cuello camisa
+    4300006: cabeza
+    4300008: zapas
+    4300010: saco
+    4300012: pollera
+    4300014: medias
+    4300016: mangas camisa
     4300018: cuello saco
-    4300020: mangas camisa
-    4300022: medias
-    4300024: pollera
-    4300026: saco
-    4300028: zapas
-    4300030: cabeza.001
+    4300020: cuello camisa
+    4300022: corbata
+    4300024: camisa.003
+    4300026: borde camisa
+    4300028: camisa
     7400000: mixamo.com
     9500000: //RootNode
     13700000: BOCA
     13700002: borde camisa
-    13700004: boton
-    13700006: cabeza.001
-    13700008: camisa
-    13700010: camisa.003
-    13700012: corbata
-    13700014: cuello camisa
-    13700016: cuello saco
-    13700018: cuerpo
-    13700020: mangas camisa
-    13700022: medias
-    13700024: OJOS
-    13700026: pollera
-    13700028: saco
-    13700030: zapas
+    13700004: cabeza
+    13700006: camisa
+    13700008: camisa.003
+    13700010: corbata
+    13700012: cuello camisa
+    13700014: cuello saco
+    13700016: cuerpo
+    13700018: mangas camisa
+    13700020: medias
+    13700022: OJOS
+    13700024: pollera
+    13700026: saco
+    13700028: zapas
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

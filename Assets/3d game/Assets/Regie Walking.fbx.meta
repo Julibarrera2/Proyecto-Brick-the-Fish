@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 7216487a3f00293469ef5a956aacc2e7
+guid: c29ded7bf3e02fd4e896e22934917d82
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: borde camisa
-    100002: boton
-    100004: cabeza
-    100006: camisa
-    100008: camisa.003
-    100010: corbata
-    100012: cuello camisa
-    100014: cuello saco
-    100016: cuerpo
+    100002: cabeza
+    100004: camisa
+    100006: camisa.003
+    100008: corbata
+    100010: cuello camisa
+    100012: cuello saco
+    100014: cuerpo
+    100016: Glases
     100018: mangas camisa
     100020: medias
     100022: mixamorig:Head
@@ -56,18 +56,18 @@ ModelImporter:
     100100: mixamorig:Spine1
     100102: mixamorig:Spine2
     100104: pollera
-    100106: saco
-    100108: //RootNode
+    100106: //RootNode
+    100108: saco
     100110: zapas
     400000: borde camisa
-    400002: boton
-    400004: cabeza
-    400006: camisa
-    400008: camisa.003
-    400010: corbata
-    400012: cuello camisa
-    400014: cuello saco
-    400016: cuerpo
+    400002: cabeza
+    400004: camisa
+    400006: camisa.003
+    400008: corbata
+    400010: cuello camisa
+    400012: cuello saco
+    400014: cuerpo
+    400016: Glases
     400018: mangas camisa
     400020: medias
     400022: mixamorig:Head
@@ -112,47 +112,47 @@ ModelImporter:
     400100: mixamorig:Spine1
     400102: mixamorig:Spine2
     400104: pollera
-    400106: saco
-    400108: //RootNode
+    400106: //RootNode
+    400108: saco
     400110: zapas
-    2100000: textura tota
+    2100000: piel 2
     2100002: iris ojos
     2100004: blanco
-    2100006: maron ojos
+    2100006: ojos
     2100008: reflejos ojos
-    2100010: detalle camisa
-    2100012: boton.001
-    2100014: camisa
-    2100016: corbata
-    2100018: detalle saco
-    2100020: pollera
-    2100022: saco
-    2100024: zapatillas
-    4300000: cuerpo
-    4300002: cabeza
-    4300004: borde camisa
-    4300006: boton
-    4300008: camisa
-    4300010: camisa.003
-    4300012: corbata
-    4300014: cuello camisa
+    2100010: zapatillas.001
+    2100012: saco.001
+    2100014: pollera.001
+    2100016: camisa.001
+    2100018: detalle camisa.001
+    2100020: detalle saco.001
+    2100022: corbata.001
+    2100024: camisa.002
+    4300000: cabeza
+    4300002: cuerpo
+    4300004: Glases
+    4300006: zapas
+    4300008: saco
+    4300010: pollera
+    4300012: medias
+    4300014: mangas camisa
     4300016: cuello saco
-    4300018: mangas camisa
-    4300020: medias
-    4300022: pollera
-    4300024: saco
-    4300026: zapas
+    4300018: cuello camisa
+    4300020: corbata
+    4300022: camisa.003
+    4300024: borde camisa
+    4300026: camisa
     7400000: mixamo.com
     9500000: //RootNode
     13700000: borde camisa
-    13700002: boton
-    13700004: cabeza
-    13700006: camisa
-    13700008: camisa.003
-    13700010: corbata
-    13700012: cuello camisa
-    13700014: cuello saco
-    13700016: cuerpo
+    13700002: cabeza
+    13700004: camisa
+    13700006: camisa.003
+    13700008: corbata
+    13700010: cuello camisa
+    13700012: cuello saco
+    13700014: cuerpo
+    13700016: Glases
     13700018: mangas camisa
     13700020: medias
     13700022: pollera
@@ -186,35 +186,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: mixamo.com
-      takeName: mixamo.com
-      firstFrame: 0
-      lastFrame: 31
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

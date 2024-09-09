@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: e72c97a2537b0a04382193a9df604894
+guid: 06e138e4c750210488df909f47de41ac
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: borde camisa
-    100002: boton
-    100004: cabeza
-    100006: camisa
-    100008: camisa.003
-    100010: corbata
-    100012: cuello camisa
-    100014: cuello saco
-    100016: cuerpo
+    100002: cabeza
+    100004: camisa
+    100006: camisa.003
+    100008: corbata
+    100010: cuello camisa
+    100012: cuello saco
+    100014: cuerpo
+    100016: //RootNode
     100018: mangas camisa
     100020: medias
     100022: mixamorig:Head
@@ -57,17 +57,16 @@ ModelImporter:
     100102: mixamorig:Spine2
     100104: pollera
     100106: saco
-    100108: //RootNode
-    100110: zapas
+    100108: zapas
     400000: borde camisa
-    400002: boton
-    400004: cabeza
-    400006: camisa
-    400008: camisa.003
-    400010: corbata
-    400012: cuello camisa
-    400014: cuello saco
-    400016: cuerpo
+    400002: cabeza
+    400004: camisa
+    400006: camisa.003
+    400008: corbata
+    400010: cuello camisa
+    400012: cuello saco
+    400014: cuerpo
+    400016: //RootNode
     400018: mangas camisa
     400020: medias
     400022: mixamorig:Head
@@ -113,52 +112,47 @@ ModelImporter:
     400102: mixamorig:Spine2
     400104: pollera
     400106: saco
-    400108: //RootNode
-    400110: zapas
-    2100000: piel negra
-    2100002: piel
-    2100004: iris ojos
-    2100006: blanco
-    2100008: maron ojos
-    2100010: reflejos ojos
-    2100012: detalle camisa
-    2100014: boton.001
-    2100016: camisa
-    2100018: corbata
-    2100020: detalle saco
-    2100022: pollera
-    2100024: saco
-    2100026: zapatillas
-    4300000: cabeza
-    4300002: cuerpo
+    400108: zapas
+    2100000: textura tota
+    2100002: iris ojos
+    2100004: blanco
+    2100006: maron ojos
+    2100008: reflejos ojos
+    2100010: detalle camisa
+    2100012: camisa
+    2100014: corbata
+    2100016: detalle saco
+    2100018: pollera
+    2100020: saco
+    2100022: zapatillas
+    4300000: cuerpo
+    4300002: cabeza
     4300004: borde camisa
-    4300006: boton
-    4300008: camisa
-    4300010: camisa.003
-    4300012: corbata
-    4300014: cuello camisa
-    4300016: cuello saco
-    4300018: mangas camisa
-    4300020: medias
-    4300022: pollera
-    4300024: saco
-    4300026: zapas
+    4300006: camisa
+    4300008: camisa.003
+    4300010: corbata
+    4300012: cuello camisa
+    4300014: cuello saco
+    4300016: mangas camisa
+    4300018: medias
+    4300020: pollera
+    4300022: saco
+    4300024: zapas
     7400000: mixamo.com
     9500000: //RootNode
     13700000: borde camisa
-    13700002: boton
-    13700004: cabeza
-    13700006: camisa
-    13700008: camisa.003
-    13700010: corbata
-    13700012: cuello camisa
-    13700014: cuello saco
-    13700016: cuerpo
-    13700018: mangas camisa
-    13700020: medias
-    13700022: pollera
-    13700024: saco
-    13700026: zapas
+    13700002: cabeza
+    13700004: camisa
+    13700006: camisa.003
+    13700008: corbata
+    13700010: cuello camisa
+    13700012: cuello saco
+    13700014: cuerpo
+    13700016: mangas camisa
+    13700018: medias
+    13700020: pollera
+    13700022: saco
+    13700024: zapas
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
