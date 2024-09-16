@@ -360,7 +360,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0648148, y: 1}
+    m_SensorSize: {x: 1.9818888, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -376,7 +376,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.19242284, y: -0.0011728974, z: 0.00022999046, w: 0.9813114}
+  m_LocalRotation: {x: 0.19242251, y: -0.0021623846, z: 0.00042401644, w: 0.9813097}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -461,7 +461,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.19242284, y: -0.0011728974, z: 0.00022999036, w: 0.98131144}
+  m_LocalRotation: {x: 0.19242248, y: -0.002162382, z: 0.00042400404, w: 0.9813097}
   m_LocalPosition: {x: -73.4128, y: 20.18, z: -9.7471485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -820,7 +820,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0648148, y: 1}
+    m_SensorSize: {x: 1.9818888, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0648148, y: 1}
+    m_SensorSize: {x: 1.9818888, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -913,7 +913,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643064144}
-  m_LocalRotation: {x: 0.25666794, y: -0.000000014793077, z: 0.0000000039285144, w: 0.9664997}
+  m_LocalRotation: {x: 0.2566679, y: 0.000000020645864, z: -0.0000000054828067, w: 0.9664997}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -968,7 +968,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0648148, y: 1}
+    m_SensorSize: {x: 1.9818888, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1805,6 +1805,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869315300469409336, guid: a292852596471cc46b8368c0ff79db33,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5869315300469409680, guid: a292852596471cc46b8368c0ff79db33,
         type: 3}
