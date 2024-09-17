@@ -360,7 +360,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7772152, y: 1}
+    m_SensorSize: {x: 1.7793297, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -376,7 +376,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.19242258, y: -0.0019441219, z: 0.00038121783, w: 0.9813102}
+  m_LocalRotation: {x: 0.1924226, y: -0.0019463951, z: 0.00038166362, w: 0.9813102}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -461,7 +461,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.19242258, y: -0.00194412, z: 0.00038120768, w: 0.9813102}
+  m_LocalRotation: {x: 0.1924226, y: -0.0019463928, z: 0.00038165337, w: 0.9813102}
   m_LocalPosition: {x: -20.1, y: 18.5, z: -2.7000008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -826,7 +826,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7772152, y: 1}
+    m_SensorSize: {x: 1.7793297, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -903,7 +903,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7772152, y: 1}
+    m_SensorSize: {x: 1.7793297, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -974,7 +974,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7772152, y: 1}
+    m_SensorSize: {x: 1.7793297, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1075,6 +1075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1792839513}
   - component: {fileID: 1792839515}
+  - component: {fileID: 1792839516}
   - component: {fileID: 1792839514}
   m_Layer: 0
   m_Name: Player
@@ -1140,6 +1141,25 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1792839516
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792839512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 3d4772d661c71df42962b2bd827dfdad, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1b2693583d4319b46895bd4d90d14305, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1855605980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6314768917534071982, guid: a14429c60fbebce4eb002993634d4d90,
