@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d20d00109cf55b4c8cfa79f1b087e31
+guid: 1150909571adf2c42a01c72a126a11c2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: borde camisa
-    100002: cabeza
+    100002: CABEZA POSTA
     100004: camisa
     100006: camisa.003
     100008: corbata
@@ -54,12 +54,12 @@ ModelImporter:
     100096: mixamorig:Spine
     100098: mixamorig:Spine1
     100100: mixamorig:Spine2
-    100102: pollera
-    100104: saco
-    100106: //RootNode
+    100102: //RootNode
+    100104: pollera
+    100106: saco
     100108: zapas
     400000: borde camisa
-    400002: cabeza
+    400002: CABEZA POSTA
     400004: camisa
     400006: camisa.003
     400008: corbata
@@ -109,39 +109,38 @@ ModelImporter:
     400096: mixamorig:Spine
     400098: mixamorig:Spine1
     400100: mixamorig:Spine2
-    400102: pollera
-    400104: saco
-    400106: //RootNode
+    400102: //RootNode
+    400104: pollera
+    400106: saco
     400108: zapas
-    2100000: piel 2
-    2100002: maron ojos
-    2100004: iris ojos
-    2100006: blanco
-    2100008: reflejos ojos
-    2100010: zapatillas.001
-    2100012: saco.001
-    2100014: pollera.001
-    2100016: camisa.001
-    2100018: detalle camisa.001
-    2100020: detalle saco.001
-    2100022: corbata.001
-    4300000: cabeza
-    4300002: cuerpo
-    4300004: zapas
-    4300006: saco
-    4300008: pollera
-    4300010: medias
-    4300012: mangas camisa
-    4300014: cuello saco
-    4300016: cuello camisa
-    4300018: corbata
-    4300020: camisa.003
-    4300022: camisa
-    4300024: borde camisa
+    2100000: piel
+    2100002: detalle camisa
+    2100004: camisa
+    2100006: corbata
+    2100008: detalle saco
+    2100010: pollera
+    2100012: saco
+    2100014: zapatillas
+    2100016: iris ojos
+    2100018: blanco
+    2100020: maron ojos
+    4300000: cuerpo
+    4300002: borde camisa
+    4300004: camisa
+    4300006: camisa.003
+    4300008: corbata
+    4300010: cuello camisa
+    4300012: cuello saco
+    4300014: mangas camisa
+    4300016: medias
+    4300018: pollera
+    4300020: saco
+    4300022: zapas
+    4300024: CABEZA POSTA
     7400000: mixamo.com
     9500000: //RootNode
     13700000: borde camisa
-    13700002: cabeza
+    13700002: CABEZA POSTA
     13700004: camisa
     13700006: camisa.003
     13700008: corbata
