@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 602a49794a76abe4dac332b9676bffbd
+guid: 31c2f88060b495b4c835fff6cd0c0cb6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -117,14 +117,13 @@ ModelImporter:
     2100002: maron ojos
     2100004: iris ojos
     2100006: blanco
-    2100008: reflejos ojos
-    2100010: zapatillas.001
-    2100012: saco.001
-    2100014: pollera.001
-    2100016: camisa.001
-    2100018: detalle camisa.001
-    2100020: detalle saco.001
-    2100022: corbata.001
+    2100008: zapatillas.001
+    2100010: saco.001
+    2100012: pollera.001
+    2100014: camisa.001
+    2100016: detalle camisa.001
+    2100018: detalle saco.001
+    2100020: corbata.001
     4300000: cabeza
     4300002: cuerpo
     4300004: zapas
