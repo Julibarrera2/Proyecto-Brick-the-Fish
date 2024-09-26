@@ -8,6 +8,7 @@ using UnityEngine;
 public class ThirdPersonMovement : MonoBehaviour
 {
     public CharacterController controller;
+    public Animator anim;
     public Transform cam;
 
     public float speed = 6;
@@ -45,6 +46,8 @@ public class ThirdPersonMovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        anim.SetFloat("Speed", direction.magnitude);
 
         if (direction.magnitude >= 0.1f)
         {
