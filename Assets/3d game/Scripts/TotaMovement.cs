@@ -32,19 +32,19 @@ public class TotaMovement : MonoBehaviour
         {
             anim.SetBool("walking", false);
         }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            anim.SetBool("walking", true);
-        }
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            anim.SetBool("walking", false);
-        }
         if (Input.GetKeyDown(KeyCode.D))
         {
             anim.SetBool("walking", true);
         }
         if (Input.GetKeyUp(KeyCode.D))
+        {
+            anim.SetBool("walking", false);
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            anim.SetBool("walking", true);
+        }
+        if (Input.GetKeyUp(KeyCode.A))
         {
             anim.SetBool("walking", false);
         }

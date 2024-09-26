@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 31c2f88060b495b4c835fff6cd0c0cb6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: borde camisa
+    100002: cabeza
+    100004: camisa
+    100006: camisa.003
+    100008: corbata
+    100010: cuello camisa
+    100012: cuello saco
+    100014: cuerpo
+    100016: //RootNode
+    100018: mangas camisa
+    100020: medias
+    100022: mixamorig:Head
+    100024: mixamorig:HeadTop_End
+    100026: mixamorig:Hips
+    100028: mixamorig:LeftArm
+    100030: mixamorig:LeftFoot
+    100032: mixamorig:LeftForeArm
+    100034: mixamorig:LeftHand
+    100036: mixamorig:LeftHandIndex1
+    100038: mixamorig:LeftHandIndex2
+    100040: mixamorig:LeftHandIndex3
+    100042: mixamorig:LeftHandIndex4
+    100044: mixamorig:LeftHandThumb1
+    100046: mixamorig:LeftHandThumb2
+    100048: mixamorig:LeftHandThumb3
+    100050: mixamorig:LeftHandThumb4
+    100052: mixamorig:LeftLeg
+    100054: mixamorig:LeftShoulder
+    100056: mixamorig:LeftToe_End
+    100058: mixamorig:LeftToeBase
+    100060: mixamorig:LeftUpLeg
+    100062: mixamorig:Neck
+    100064: mixamorig:RightArm
+    100066: mixamorig:RightFoot
+    100068: mixamorig:RightForeArm
+    100070: mixamorig:RightHand
+    100072: mixamorig:RightHandIndex1
+    100074: mixamorig:RightHandIndex2
+    100076: mixamorig:RightHandIndex3
+    100078: mixamorig:RightHandIndex4
+    100080: mixamorig:RightHandThumb1
+    100082: mixamorig:RightHandThumb2
+    100084: mixamorig:RightHandThumb3
+    100086: mixamorig:RightHandThumb4
+    100088: mixamorig:RightLeg
+    100090: mixamorig:RightShoulder
+    100092: mixamorig:RightToe_End
+    100094: mixamorig:RightToeBase
+    100096: mixamorig:RightUpLeg
+    100098: mixamorig:Spine
+    100100: mixamorig:Spine1
+    100102: mixamorig:Spine2
+    100104: pollera
+    100106: saco
+    100108: zapas
+    400000: borde camisa
+    400002: cabeza
+    400004: camisa
+    400006: camisa.003
+    400008: corbata
+    400010: cuello camisa
+    400012: cuello saco
+    400014: cuerpo
+    400016: //RootNode
+    400018: mangas camisa
+    400020: medias
+    400022: mixamorig:Head
+    400024: mixamorig:HeadTop_End
+    400026: mixamorig:Hips
+    400028: mixamorig:LeftArm
+    400030: mixamorig:LeftFoot
+    400032: mixamorig:LeftForeArm
+    400034: mixamorig:LeftHand
+    400036: mixamorig:LeftHandIndex1
+    400038: mixamorig:LeftHandIndex2
+    400040: mixamorig:LeftHandIndex3
+    400042: mixamorig:LeftHandIndex4
+    400044: mixamorig:LeftHandThumb1
+    400046: mixamorig:LeftHandThumb2
+    400048: mixamorig:LeftHandThumb3
+    400050: mixamorig:LeftHandThumb4
+    400052: mixamorig:LeftLeg
+    400054: mixamorig:LeftShoulder
+    400056: mixamorig:LeftToe_End
+    400058: mixamorig:LeftToeBase
+    400060: mixamorig:LeftUpLeg
+    400062: mixamorig:Neck
+    400064: mixamorig:RightArm
+    400066: mixamorig:RightFoot
+    400068: mixamorig:RightForeArm
+    400070: mixamorig:RightHand
+    400072: mixamorig:RightHandIndex1
+    400074: mixamorig:RightHandIndex2
+    400076: mixamorig:RightHandIndex3
+    400078: mixamorig:RightHandIndex4
+    400080: mixamorig:RightHandThumb1
+    400082: mixamorig:RightHandThumb2
+    400084: mixamorig:RightHandThumb3
+    400086: mixamorig:RightHandThumb4
+    400088: mixamorig:RightLeg
+    400090: mixamorig:RightShoulder
+    400092: mixamorig:RightToe_End
+    400094: mixamorig:RightToeBase
+    400096: mixamorig:RightUpLeg
+    400098: mixamorig:Spine
+    400100: mixamorig:Spine1
+    400102: mixamorig:Spine2
+    400104: pollera
+    400106: saco
+    400108: zapas
+    2100000: piel 2
+    2100002: maron ojos
+    2100004: iris ojos
+    2100006: blanco
+    2100008: zapatillas.001
+    2100010: saco.001
+    2100012: pollera.001
+    2100014: camisa.001
+    2100016: detalle camisa.001
+    2100018: detalle saco.001
+    2100020: corbata.001
+    4300000: cabeza
+    4300002: cuerpo
+    4300004: zapas
+    4300006: saco
+    4300008: pollera
+    4300010: medias
+    4300012: mangas camisa
+    4300014: cuello saco
+    4300016: cuello camisa
+    4300018: corbata
+    4300020: camisa.003
+    4300022: camisa
+    4300024: borde camisa
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: borde camisa
+    13700002: cabeza
+    13700004: camisa
+    13700006: camisa.003
+    13700008: corbata
+    13700010: cuello camisa
+    13700012: cuello saco
+    13700014: cuerpo
+    13700016: mangas camisa
+    13700018: medias
+    13700020: pollera
+    13700022: saco
+    13700024: zapas
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
