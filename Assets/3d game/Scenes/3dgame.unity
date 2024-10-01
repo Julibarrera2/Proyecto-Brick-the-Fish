@@ -386,7 +386,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.4117647, y: 1}
+    m_SensorSize: {x: 2.2641976, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -402,7 +402,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.061951343, y: -0.0015770077, z: 0.00009788588, w: 0.9980779}
+  m_LocalRotation: {x: 0.06195123, y: -0.002502418, z: 0.0001553267, w: 0.9980761}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -487,7 +487,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.0882206, y: -0.0010120061, z: 0.000036178484, w: 0.9961005}
+  m_LocalRotation: {x: 0.08822075, y: -0.0016058655, z: 0.0000574097, w: 0.9960997}
   m_LocalPosition: {x: -20.1, y: 14.610794, z: 6.4246407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -846,7 +846,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.4117647, y: 1}
+    m_SensorSize: {x: 2.2641976, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -953,7 +953,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.4117647, y: 1}
+    m_SensorSize: {x: 2.2641976, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.4117647, y: 1}
+    m_SensorSize: {x: 2.2641976, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1220,13 +1220,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792839512}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2918de6ff8da22542b7e4371a2e6c2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1792839516}
-  velRotacion: 0
 --- !u!1 &1890257790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,7 +1904,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 1b2693583d4319b46895bd4d90d14305, type: 2}
+      objectReference: {fileID: 9100000, guid: f80c177e17d432f42b186fcc4a866d00, type: 2}
+    - target: {fileID: 9108789251460644353, guid: df8fae266f437c5449a77b33ea38083d,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed by
+        Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
+        'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
+        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform
+        'mixamorig:RightFoot'\n\tTransform 'mixamorig:Head'\n\tand more ...\n\tFrom
+        animation clip 'mixamo.com'"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108789251460644353, guid: df8fae266f437c5449a77b33ea38083d,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9108789251467891083, guid: df8fae266f437c5449a77b33ea38083d,
         type: 3}
       propertyPath: m_LocalPosition.x
