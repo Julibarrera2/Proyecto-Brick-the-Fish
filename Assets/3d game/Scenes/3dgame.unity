@@ -313,6 +313,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 9108789250969017472}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &479235709 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9108789251460644353, guid: df8fae266f437c5449a77b33ea38083d,
+    type: 3}
+  m_PrefabInstance: {fileID: 9108789250969017472}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &479235710 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9108789251467891083, guid: df8fae266f437c5449a77b33ea38083d,
@@ -386,7 +392,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2641976, y: 1}
+    m_SensorSize: {x: 0.96666664, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -402,7 +408,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.06195123, y: -0.002502418, z: 0.0001553267, w: 0.9980761}
+  m_LocalRotation: {x: 0.061951395, y: -0.0010837144, z: 0.00006726688, w: 0.9980786}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -487,7 +493,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.08822075, y: -0.0016058655, z: 0.0000574097, w: 0.9960997}
+  m_LocalRotation: {x: 0.088220544, y: -0.000695447, z: 0.000024861838, w: 0.9961007}
   m_LocalPosition: {x: -20.1, y: 14.610794, z: 6.4246407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -846,7 +852,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2641976, y: 1}
+    m_SensorSize: {x: 0.96666664, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -953,7 +959,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2641976, y: 1}
+    m_SensorSize: {x: 0.96666664, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1024,7 +1030,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2641976, y: 1}
+    m_SensorSize: {x: 0.96666664, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1125,7 +1131,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1792839513}
   - component: {fileID: 1792839515}
-  - component: {fileID: 1792839516}
   - component: {fileID: 1792839514}
   - component: {fileID: 1792839517}
   m_Layer: 0
@@ -1165,10 +1170,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1792839515}
-  anim: {fileID: 1792839516}
+  anim: {fileID: 479235709}
   cam: {fileID: 534669905}
   speed: 6
-  gravity: -9.81
+  gravity: -45
   jumpHeight: 3
   groundCheck: {fileID: 1890257791}
   groundDistance: 0.4
@@ -1194,25 +1199,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 4.89, z: 0}
---- !u!95 &1792839516
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792839512}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3d4772d661c71df42962b2bd827dfdad, type: 3}
-  m_Controller: {fileID: 9100000, guid: f80c177e17d432f42b186fcc4a866d00, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1792839517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1225,7 +1211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2918de6ff8da22542b7e4371a2e6c2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1792839516}
+  anim: {fileID: 479235709}
 --- !u!1 &1890257790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,17 +1890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: f80c177e17d432f42b186fcc4a866d00, type: 2}
+      objectReference: {fileID: 9100000, guid: 1b2693583d4319b46895bd4d90d14305, type: 2}
     - target: {fileID: 9108789251460644353, guid: df8fae266f437c5449a77b33ea38083d,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed by
-        Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform
-        'mixamorig:RightFoot'\n\tTransform 'mixamorig:Head'\n\tand more ...\n\tFrom
-        animation clip 'mixamo.com'"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9108789251460644353, guid: df8fae266f437c5449a77b33ea38083d,
         type: 3}

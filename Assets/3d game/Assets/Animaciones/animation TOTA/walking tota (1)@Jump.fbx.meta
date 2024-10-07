@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21b41f78f3340e8468ae43f62a99192a
+guid: 4ad7942bd828e15438fe45cc0a85ab38
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -87,9 +87,8 @@ ModelImporter:
     400078: mixamorig:Spine1
     400080: mixamorig:Spine2
     400082: //RootNode
-    7400000: mixamo.com
+    7400000: Jump
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -103,12 +102,7 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'mixamorig:LeftUpLeg'
-      : position error = 9.051581 mm\n\t'mixamorig:LeftLeg' : position error = 15.021144
-      mm\n\t'mixamorig:LeftToeBase' : position error = 8.874307 mm\n\t'mixamorig:RightUpLeg'
-      : position error = 10.689985 mm\n\t'mixamorig:RightLeg' : position error = 14.649540
-      mm\n\t'mixamorig:RightToeBase' : position error = 16.663015 mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -124,21 +118,21 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: mixamo.com
+      name: Jump
       takeName: mixamo.com
-      firstFrame: 0
-      lastFrame: 160
+      firstFrame: 19
+      lastFrame: 51
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0

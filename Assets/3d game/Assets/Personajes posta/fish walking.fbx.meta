@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 40388255ff6422943a241ce93eced747
+guid: b07594cfa3fe06a49ad2d55ee7ef5900
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -130,7 +130,6 @@ ModelImporter:
     2100020: detalle camisa.001
     2100022: detalle saco.001
     2100024: corbata.001
-    2100026: camisa.002
     4300000: BOCA
     4300002: OJOS
     4300004: cuerpo
@@ -144,8 +143,8 @@ ModelImporter:
     4300020: cuello camisa
     4300022: corbata
     4300024: camisa.003
-    4300026: borde camisa
-    4300028: camisa
+    4300026: camisa
+    4300028: borde camisa
     7400000: mixamo.com
     9500000: //RootNode
     13700000: BOCA
