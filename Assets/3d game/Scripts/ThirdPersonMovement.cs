@@ -38,9 +38,14 @@ public class ThirdPersonMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+            anim.SetTrigger("Jump");
         }
-        //gravity
-        velocity.y += gravity * Time.deltaTime;
+        if (Input.GetMouseButtonDown(0)) 
+        {
+            anim.SetTrigger("Throw");
+        }
+            //gravity
+            velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
         //walk
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -57,6 +62,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-        }
+        } 
+
     }
 }
