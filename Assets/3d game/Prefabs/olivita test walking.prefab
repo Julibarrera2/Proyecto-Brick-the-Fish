@@ -43,7 +43,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4106614384593504674}
   - component: {fileID: 4106614384600704548}
-  - component: {fileID: 7907731151886042178}
   m_Layer: 0
   m_Name: olivita test walking
   m_TagString: Untagged
@@ -89,7 +88,7 @@ Animator:
   m_GameObject: {fileID: 4106614384593409090}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1150909571adf2c42a01c72a126a11c2, type: 3}
-  m_Controller: {fileID: 9100000, guid: b3dd4db434e089a43bcfc76346ad919a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -98,20 +97,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!64 &7907731151886042178
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4106614384593409090}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
 --- !u!1 &4106614384593409092
 GameObject:
   m_ObjectHideFlags: 0
