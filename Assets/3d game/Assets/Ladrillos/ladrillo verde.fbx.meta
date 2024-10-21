@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: f0cc3e5aa1f5e48439a238982beedd65
+guid: eb740139cba8a5b4ca1c00ee9c72cc2b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: ladrillo 2
+    2100000: ladrillo 3
     2300000: //RootNode
     3300000: //RootNode
-    4300000: ladrillo 2
+    4300000: ladrillo verde solo
   externalObjects: {}
   materials:
     importMaterials: 1

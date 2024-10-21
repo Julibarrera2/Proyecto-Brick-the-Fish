@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 4c628f2cb71453840a131cb3d6b8a3d3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pantalon.001
+    100004: pelo
+    100006: remera.001
+    100008: zapato
+    400000: //RootNode
+    400002: pantalon.001
+    400004: pelo
+    400006: remera.001
+    400008: zapato
+    2100000: piel.002
+    2100002: iris ojos
+    2100004: iris ojos.002
+    2100006: blanco ojos
+    2100008: color ojos
+    2100010: remera
+    2100012: pantalon
+    2100014: Material.004
+    2100016: Material.003
+    2100018: Material.001
+    2100020: Material.002
+    2300000: //RootNode
+    2300002: pantalon.001
+    2300004: pelo
+    2300006: remera.001
+    2300008: zapato
+    3300000: //RootNode
+    3300002: pantalon.001
+    3300004: pelo
+    3300006: remera.001
+    3300008: zapato
+    4300000: hormona
+    4300002: remera.001
+    4300004: pantalon.001
+    4300006: zapato
+    4300008: pelo
+    7400000: hormona|hormonaAction
+    7400002: remera.001|hormonaAction
+    7400004: pantalon.001|hormonaAction
+    7400006: zapato|hormonaAction
+    7400008: pelo|hormonaAction
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8c03c8674090e3145998eda4bc5a31c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: dd9c23b95781a874b99a0dc7b1c8db9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: b5014c4891bd6f9478e60372992a5f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 9408d11edc1551b46ae87498ff506066, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blanco ojos
+    second: {fileID: 2100004, guid: a4947041a2cbce2408bdd3c273061727, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color ojos
+    second: {fileID: 2100000, guid: b85c56db74901504dbe311a0f10e2b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iris ojos
+    second: {fileID: 2100000, guid: c4b092d1e45cc784383b8e4d6fb96304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iris ojos.002
+    second: {fileID: 2100000, guid: da78549ca69c28c41a3c636da2d2dee8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pantalon
+    second: {fileID: 2100000, guid: 95167fcac2f58bb4fbadc386f9077b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piel.002
+    second: {fileID: 2100000, guid: 6c2a6e1d6dc9de6488eda1fb30ed8854, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remera
+    second: {fileID: 2100000, guid: 8a5d47d70814dc246aeeb967df494155, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
