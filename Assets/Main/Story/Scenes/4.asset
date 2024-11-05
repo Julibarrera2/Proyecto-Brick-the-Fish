@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences: []
   backgorund: {fileID: 21300000, guid: bde5d79966431084c8a8fba060ae2d96, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 87298dab0ecd13d4ca0f1ef96dae45c7, type: 2}
