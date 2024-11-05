@@ -52,12 +52,7 @@ MonoBehaviour:
     actions: []
   - text: Ni puta idea la verdad.
     speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-      spriteIndex: 1
-      actionType: 0
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
   - text: "No te acordas que un dia te conte de una chica que le dijo a su amiga que
       ella la estaba abandonando como su pap\xE1 cuando solamente le estaba cortando
       el celular?"
@@ -65,7 +60,12 @@ MonoBehaviour:
     actions: []
   - text: Nop.
     speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+      spriteIndex: 1
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
   - text: "Muy segura que se comi\xF3 al gordo de Thiago Hormona."
     speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
     actions: []
