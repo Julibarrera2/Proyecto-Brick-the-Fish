@@ -73,7 +73,7 @@ public class BottomBarController : MonoBehaviour
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.01f);
             if (++wordIndex == text.Length)
             {
                 state = State.COMPLETED;
