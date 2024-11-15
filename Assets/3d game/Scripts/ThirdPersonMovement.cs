@@ -20,14 +20,16 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-
+    public GameObject brick;
     float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
+    float shotTime = 0f;
+    bool doThrow;
 
     // Update is called once per frame
     void Update()
     {
-        //jump
+        shotTime -= Time.deltaTime;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
@@ -40,9 +42,22 @@ public class ThirdPersonMovement : MonoBehaviour
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
             anim.SetTrigger("Jump");
         }
+        if (doThrow && !anim.GetCurrentAnimatorStateInfo(0).IsName("Throw"))
+        {
+            Instantiate(brick, transform.position + new Vector3(-1.5f, 7, 0), Quaternion.identity).GetComponent<Rigidbody>().AddForce(transform.forward * 50, ForceMode.Impulse);
+            doThrow = false;
+        }
+            
         if (Input.GetMouseButtonDown(0)) 
         {
-            anim.SetTrigger("Throw");
+            //throw
+            if (shotTime <= 0)
+            {
+                anim.SetTrigger("Throw");
+                doThrow = true;
+                shotTime = 1;
+            }
+            
         }
             //gravity
             velocity.y += gravity * Time.deltaTime;
