@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: d350bd67ff2c0d84485ead3e71526a38
+guid: 01668042b3583324c9765e120f6396b1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: blak
+    2100000: pelo regi
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pelo 2
+    4300000: pelo regi
   externalObjects: {}
   materials:
     importMaterials: 1
