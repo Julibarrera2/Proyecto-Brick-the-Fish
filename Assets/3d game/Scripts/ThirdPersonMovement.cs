@@ -44,7 +44,7 @@ public class ThirdPersonMovement : MonoBehaviour
         }
         if (doThrow && !anim.GetCurrentAnimatorStateInfo(0).IsName("Throw"))
         {
-            Instantiate(brick, transform.position + new Vector3(-1.5f, 7, 0), Quaternion.identity).GetComponent<Rigidbody>().AddForce(transform.forward * 50, ForceMode.Impulse);
+            Instantiate(brick, transform.position + new Vector3(-1.5f, 7, 0), Quaternion.identity).GetComponent<Rigidbody>().AddForce(transform.forward * 500, ForceMode.Impulse);
             doThrow = false;
         }
             
