@@ -444,7 +444,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.061951283, y: -0.001975988, z: 0.00012265082, w: 0.9980772}
+  m_LocalRotation: {x: 0.061951276, y: -0.001975988, z: 0.0001226508, w: 0.9980772}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -528,7 +528,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.0906389, y: -0.0007458477, z: -0.00005966212, w: 0.9958836}
+  m_LocalRotation: {x: 0.0906389, y: -0.0007458477, z: -0.000059662216, w: 0.9958836}
   m_LocalPosition: {x: -30, y: 10.7107935, z: -18.875359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5210,7 +5210,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5253,7 +5253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corners:
   - {x: -70, y: 0, z: 40}
-  - {x: -67, y: 0, z: 75}
+  - {x: 67, y: 0, z: 75}
 --- !u!1 &2047605602586207384
 GameObject:
   m_ObjectHideFlags: 0
@@ -9484,7 +9484,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9527,7 +9527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corners:
   - {x: -70, y: 0, z: 40}
-  - {x: -67, y: 0, z: 75}
+  - {x: 67, y: 0, z: 75}
 --- !u!1 &2274034839027923679
 GameObject:
   m_ObjectHideFlags: 0
@@ -11728,7 +11728,7 @@ Animator:
   m_GameObject: {fileID: 3587496015078365476}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: a4947041a2cbce2408bdd3c273061727, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2fb46b79b084e44b8d632735723a974, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12610,7 +12610,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -12653,7 +12653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corners:
   - {x: -70, y: 0, z: 40}
-  - {x: -67, y: 0, z: 75}
+  - {x: 67, y: 0, z: 75}
 --- !u!1 &3587496015078365482
 GameObject:
   m_ObjectHideFlags: 0
@@ -14461,7 +14461,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -14504,7 +14504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corners:
   - {x: -70, y: 0, z: 40}
-  - {x: -67, y: 0, z: 75}
+  - {x: 67, y: 0, z: 75}
 --- !u!1 &3692428458557437069
 GameObject:
   m_ObjectHideFlags: 0
@@ -18685,7 +18685,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -18727,7 +18727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corners:
   - {x: -70, y: 0, z: 40}
-  - {x: -67, y: 0, z: 75}
+  - {x: 67, y: 0, z: 75}
 --- !u!1 &7789713185537340874
 GameObject:
   m_ObjectHideFlags: 0
