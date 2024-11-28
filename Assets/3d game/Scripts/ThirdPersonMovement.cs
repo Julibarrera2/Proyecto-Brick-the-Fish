@@ -43,6 +43,7 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
             anim.SetTrigger("Jump");
+            AudioManager.Instance.PlaySound(jumpSound);
         }
         if (doThrow && !anim.GetCurrentAnimatorStateInfo(0).IsName("Throw"))
         {
@@ -58,6 +59,7 @@ public class ThirdPersonMovement : MonoBehaviour
                 anim.SetTrigger("Throw");
                 doThrow = true;
                 shotTime = 1;
+                AudioManager.Instance.PlaySound(throwSound);
             }
             
         }
@@ -79,6 +81,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
+            AudioManager.Instance.PlaySound(walkSound);
         } 
 
     }

@@ -428,7 +428,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7815126, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -444,7 +444,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.06195135, y: -0.0013770623, z: 0.00008547513, w: 0.9980782}
+  m_LocalRotation: {x: 0.06195128, y: -0.001982024, z: 0.00012302546, w: 0.9980772}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -528,7 +528,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.090638615, y: -0.0005216997, z: -0.000041204836, w: 0.99588376}
+  m_LocalRotation: {x: 0.090638906, y: -0.00074808346, z: -0.000059852795, w: 0.9958836}
   m_LocalPosition: {x: -30, y: 10.7107935, z: -18.875359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1158,7 +1158,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7815126, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1174,7 +1174,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130832309}
-  m_LocalRotation: {x: 0.1414369, y: 0.0010098692, z: -0.00014428329, w: 0.9899468}
+  m_LocalRotation: {x: 0.14143683, y: 0.0014613391, z: -0.00020878625, w: 0.9899462}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1663,7 +1663,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7815126, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4420,7 +4420,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7815126, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4570,11 +4570,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 032ea4eaaa0da6a439ac46ab7db88ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSound: {fileID: 0}
-  walkSound: {fileID: 0}
-  throwSound: {fileID: 0}
-  finishSound: {fileID: 0}
-  rechargeSound: {fileID: 0}
+  jumpSound: {fileID: 8300000, guid: 5c725d7bafab4fb41bbdd87b09ff4e6b, type: 3}
+  walkSound: {fileID: 8300000, guid: f2fd11b4fcc359d44819be926a5afeda, type: 3}
+  throwSound: {fileID: 8300000, guid: 0a1071dbb051c98428196a71b7c44dfe, type: 3}
+  finishSound: {fileID: 8300000, guid: a4608f3df68c1a449a8b5e79e73d9ba0, type: 3}
+  rechargeSound: {fileID: 8300000, guid: c6026282a3ed9d344826f98627f580b7, type: 3}
   habilitiesSound: {fileID: 0}
   outoftimeSound: {fileID: 0}
   controller: {fileID: 1792839515}
@@ -5545,8 +5545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5480d13b6f23a448ed64bf50d186da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieSound: {fileID: 0}
-  hitSound: {fileID: 0}
+  dieSound: {fileID: 8300000, guid: 7af3fc20ce55cb7418b0ead3b79e26c4, type: 3}
+  hitSound: {fileID: 8300000, guid: 0475b32f269d39c459177dea8f602cae, type: 3}
   habilitiesSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
