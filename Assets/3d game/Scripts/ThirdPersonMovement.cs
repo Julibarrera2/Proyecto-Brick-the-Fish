@@ -26,12 +26,15 @@ public class ThirdPersonMovement : MonoBehaviour
     float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
     float shotTime = 0f;
+    float stepTime = 0f;
+    public float stepTiemLenth;
     bool doThrow;
 
     // Update is called once per frame
     void Update()
     {
         shotTime -= Time.deltaTime;
+        stepTime -= Time.deltaTime;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
@@ -50,8 +53,8 @@ public class ThirdPersonMovement : MonoBehaviour
             Instantiate(brick, transform.position + new Vector3(-1.5f, 7, 0), Quaternion.identity).GetComponent<Rigidbody>().AddForce(transform.forward * 500, ForceMode.Impulse);
             doThrow = false;
         }
-            
-        if (Input.GetMouseButtonDown(0)) 
+
+        if (Input.GetMouseButtonDown(0))
         {
             //throw
             if (shotTime <= 0)
@@ -61,10 +64,10 @@ public class ThirdPersonMovement : MonoBehaviour
                 shotTime = 1;
                 AudioManager.Instance.PlaySound(throwSound);
             }
-            
+
         }
-            //gravity
-            velocity.y += gravity * Time.deltaTime;
+        //gravity
+        velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
         //walk
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -81,8 +84,12 @@ public class ThirdPersonMovement : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-            AudioManager.Instance.PlaySound(walkSound);
-        } 
 
-    }
+            if (stepTime <= 0)
+            {
+                stepTime = stepTiemLenth;
+                AudioManager.Instance.PlaySound(walkSound);
+            }
+        }
+    } 
 }

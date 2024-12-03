@@ -428,7 +428,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7815126, y: 1}
+    m_SensorSize: {x: 1.6014493, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -444,7 +444,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.06195128, y: -0.001982024, z: 0.00012302546, w: 0.9980772}
+  m_LocalRotation: {x: 0.061951317, y: -0.0017854066, z: 0.00011082133, w: 0.9980776}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -528,7 +528,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.090638906, y: -0.00074808346, z: -0.000059852795, w: 0.9958836}
+  m_LocalRotation: {x: 0.09063882, y: -0.0006748029, z: -0.000053734348, w: 0.99588364}
   m_LocalPosition: {x: -30, y: 10.7107935, z: -18.875359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1158,7 +1158,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7815126, y: 1}
+    m_SensorSize: {x: 1.6014493, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1174,7 +1174,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130832309}
-  m_LocalRotation: {x: 0.14143683, y: 0.0014613391, z: -0.00020878625, w: 0.9899462}
+  m_LocalRotation: {x: 0.14143686, y: 0.0013137825, z: -0.00018770438, w: 0.9899464}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1663,7 +1663,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7815126, y: 1}
+    m_SensorSize: {x: 1.6014493, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4420,7 +4420,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7815126, y: 1}
+    m_SensorSize: {x: 1.6014493, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4575,8 +4575,8 @@ MonoBehaviour:
   throwSound: {fileID: 8300000, guid: 0a1071dbb051c98428196a71b7c44dfe, type: 3}
   finishSound: {fileID: 8300000, guid: a4608f3df68c1a449a8b5e79e73d9ba0, type: 3}
   rechargeSound: {fileID: 8300000, guid: c6026282a3ed9d344826f98627f580b7, type: 3}
-  habilitiesSound: {fileID: 0}
-  outoftimeSound: {fileID: 0}
+  habilitiesSound: {fileID: 8300000, guid: d4b2ba9b7c116a144aa62263854cf06a, type: 3}
+  outoftimeSound: {fileID: 8300000, guid: 5a26b2c63a15cb645a74504bb24d46b8, type: 3}
   controller: {fileID: 1792839515}
   anim: {fileID: 1725080193}
   cam: {fileID: 534669905}
@@ -4590,6 +4590,7 @@ MonoBehaviour:
     m_Bits: 512
   brick: {fileID: 1508638513681105051, guid: 3177db8f7f74c1c4c86b8ca3ed4a35be, type: 3}
   turnSmoothTime: 0.1
+  stepTiemLenth: 0.5
 --- !u!143 &1792839515
 CharacterController:
   m_ObjectHideFlags: 0
@@ -5547,7 +5548,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieSound: {fileID: 8300000, guid: 7af3fc20ce55cb7418b0ead3b79e26c4, type: 3}
   hitSound: {fileID: 8300000, guid: 0475b32f269d39c459177dea8f602cae, type: 3}
-  habilitiesSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -9824,7 +9824,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
   hitSound: {fileID: 0}
-  habilitiesSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -12953,7 +12952,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
   hitSound: {fileID: 0}
-  habilitiesSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -14807,7 +14805,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
   hitSound: {fileID: 0}
-  habilitiesSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -19033,7 +19030,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieSound: {fileID: 0}
   hitSound: {fileID: 0}
-  habilitiesSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
