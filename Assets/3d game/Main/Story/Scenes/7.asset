@@ -26,7 +26,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 200, y: -85}
       moveSpeed: 0
-  - text: 'BESTIE: JSBHBASABJK, solo uno?'
+  - text: JSBHBASABJK, solo uno?
     speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
     actions: []
   - text: Main te lo voy a decir de una, si vos queres algo con octavia, tenelo, pero
