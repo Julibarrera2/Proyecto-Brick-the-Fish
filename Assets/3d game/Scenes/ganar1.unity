@@ -199,7 +199,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Config1
+          m_StringArgument: Capitulo2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &55344534
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d5dfb9089f5716c458939a4606e2dd4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9bf92a8652db66a4bacc72380dae8f44, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1265,7 +1265,7 @@ GameObject:
   - component: {fileID: 1701510517}
   - component: {fileID: 1701510516}
   m_Layer: 5
-  m_Name: Home
+  m_Name: Config
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1288,7 +1288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -352, y: 192}
+  m_AnchoredPosition: {x: -370, y: 192}
   m_SizeDelta: {x: 52.41574, y: 50.434906}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701510516
@@ -1339,7 +1339,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: HomeScreen
+          m_StringArgument: Config1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1701510517
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f82fe1e2440d98746803acccb21c4488, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7ebadc26f2b50b4b9d9a584bf6be89f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
