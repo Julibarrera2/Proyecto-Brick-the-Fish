@@ -8,7 +8,9 @@ public class enemy : MonoBehaviour
 {
     int health = 20;
     public TextMeshProUGUI uiHealth;
+    public TextMeshProUGUI uiTimer;
     public GameManager gameManager;
+    float time = 180f;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("PostProcessing"))
@@ -21,6 +23,8 @@ public class enemy : MonoBehaviour
 
     private void Update()
     {
+        time -= Time.deltaTime;
+        uiTimer.text = (time / 60).ToString() + ":" + (time % 60).ToString();
         //GANAR
         if (health <= 0)
         {
