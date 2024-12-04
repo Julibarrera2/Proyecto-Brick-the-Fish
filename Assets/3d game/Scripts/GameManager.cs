@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,5 +13,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         Cursor.visible = false;
+    }
+
+    public IEnumerator Win()
+    {
+        yield return new WaitForSeconds(3);
+        if (SceneManager.GetActiveScene().name == "1") SceneManager.LoadSceneAsync("ganar1");
     }
 }
