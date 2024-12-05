@@ -1,39 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class enemy : MonoBehaviour
 {
     [SerializeField] private AudioClip dieSound, hitSound;
     int health = 100;
     public TextMeshProUGUI uiHealth;
-    public TextMeshProUGUI uiTimer;
     public GameManager gameManager;
-    float time = 180f;
+    public GameObject[] otherEnemies;
+    int totalHealth = 300;
+    bool alone;
+
+    private void Start()
+    {
+        if (otherEnemies == null) alone = true;
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("PostProcessing"))
         {
             Destroy(collision.gameObject);
             health -= 20;
-            uiHealth.text = Mathf.Clamp(health, 0, 100).ToString();
+            if (alone) uiHealth.text = Mathf.Clamp(health, 0, 100).ToString();
+            else
+            {
+                totalHealth = health;
+                foreach (GameObject enemy in otherEnemies) if (enemy != null) totalHealth += enemy.GetComponent<enemy>().health;
+                uiHealth.text = Mathf.Clamp(totalHealth, 0, 300).ToString();
+            }
             AudioManager.Instance.PlaySound(hitSound);
         }
     }
 
     private void Update()
     {
-        time -= Time.deltaTime;
-        uiTimer.text = ((int)(time / 60)).ToString() + ":" + (Mathf.Clamp((int)(time % 60), 0 , 60)).ToString("D2");
+        if (!alone && int.Parse(uiHealth.text) <= 0) gameManager.StartCoroutine(gameManager.Win());
         if (health <= 0)
         {
-            gameManager.StartCoroutine(gameManager.Win());
-            Destroy(gameObject);
             AudioManager.Instance.PlaySound(dieSound);
+            Destroy(gameObject);
         }
-        if (time <= 0) SceneManager.LoadSceneAsync("perder1");
     }
 }
