@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class enemy : MonoBehaviour
 {
+    [SerializeField] private AudioClip dieSound, hitSound;
     int health = 100;
     public TextMeshProUGUI uiHealth;
     public TextMeshProUGUI uiTimer;
@@ -19,6 +20,7 @@ public class enemy : MonoBehaviour
             Destroy(collision.gameObject);
             health -= 20;
             uiHealth.text = Mathf.Clamp(health, 0, 100).ToString();
+            AudioManager.Instance.PlaySound(hitSound);
         }
     }
 
@@ -30,6 +32,7 @@ public class enemy : MonoBehaviour
         {
             gameManager.StartCoroutine(gameManager.Win());
             Destroy(gameObject);
+            AudioManager.Instance.PlaySound(dieSound);
         }
         if (time <= 0) SceneManager.LoadSceneAsync("perder1");
     }

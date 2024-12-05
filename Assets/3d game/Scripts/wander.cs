@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class wander : MonoBehaviour
 {
-    [SerializeField] private AudioClip dieSound, hitSound;
 
     NavMeshAgent agent;
     public Vector3[] corners;
