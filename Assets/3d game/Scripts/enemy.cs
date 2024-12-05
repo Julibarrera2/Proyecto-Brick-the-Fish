@@ -42,6 +42,7 @@ public class enemy : MonoBehaviour
         if (health <= 0)
         {
             AudioManager.Instance.PlaySound(dieSound);
+            GetComponent<Animator>().SetTrigger("die");
             Destroy(gameObject);
             if (!alone && int.Parse(uiHealth.text) <= 0) gameManager.StartCoroutine(gameManager.Win());
         }
