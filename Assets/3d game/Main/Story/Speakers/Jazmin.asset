@@ -14,3 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Jazmin
   textColor: {r: 0.85882354, g: 0.44938013, b: 0.109803915, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: cd8f62a4acce4664ea6937d700cc1b71, type: 3}
+  - {fileID: 21300000, guid: 1295ff0973d0be4428510e3bd09d0f7c, type: 3}
+  prefab: {fileID: 114986229858928902, guid: 1293ebc296861cd48a8c2347061669da, type: 3}

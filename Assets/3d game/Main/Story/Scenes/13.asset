@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d7c97d2ea66cf459e782954c6eb474, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Y como fue con la reina at\xFAn?"
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -150, y: -100}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 5086a67064ce3ec4d8102367c2db8f7b, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -150, y: 0.85}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -150, y: 0.85}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -150, y: 0.85}
+      moveSpeed: 0
+  - text: No le digas asi pobre, igual ahora estoy enojada con ella.
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 150, y: -65}
+      moveSpeed: 0
+  - text: Que paso?
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: No nada.
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: Noooo dale contame, a veces hablar con alguien es la mejor manera de sacarte
+      algo de la cabeza.
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: Bueno, pero es algo sobre vos, por favor no lo tomes a mal.
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "Est\xE1 bien contamelo, total me chupa un soberano huevo lo que diga fish."
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: "B\xE1sicamente me dijo que vos eras inestable y que me tenia que alejar
+      de vos\u2026 y puede ser que haya mencionado cierta enfermedad mental tuya."
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: QUE?! HDP! QUE TE DIJO! OCTI ME TENES QUE DECIR YA QUE TE DIJO!
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "eee tipo\u2026 anorexia?"
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "FORRA! Diosss la puta que la pari\xF3!"
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: Y.. es verdad?
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "Si.. es verdad pero estoy mejorando mucho ya, fue principalmente el a\xF1o
+      pasado, estoy mejor pero bueno igual todav\xEDa estoy en proceso."
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: "Perd\xF3n MAIN no ten\xEDa idea, yo la verdad no sirvo para estas cosas,
+      tendr\xEDa que haber prestado m\xE1s atenci\xF3n, hay algo que pueda hacer?
+      Sab\xE9 que yo siempre estoy aca para vos."
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "Gracias, yo tambi\xE9n estoy para vos, realmente no hay nada que puedas
+      hacer pero por favor despreocupate, mis pap\xE1s ya saben y estoy yendo una
+      nutricionista."
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: Ok, avisame cualquier cosa.
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "El tema es c\xF3mo se enter\xF3, creo que FISH no lleva con ninguna de
+      las personas a las que se lo cont\xE9."
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: Bueno vos sabes como son con contar cosas de otros en T.O.T.A High School,
+      en el momento que contas algo, ya le llego a medio colegio.
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "S\xED bueno me parece que es tiempo que alguien le ajuste la cabecita a
+      ese pescado rabioso y cambie este sistema enfermizo de una buena vez."
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  - text: "No porfa, ella es as\xED, realmente no lo hizo personalmente."
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "S\xED y yo soy Lionel Messi, la pr\xF3xima vez que la vea, le voy a reiniciar
+      el SO."
+    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
+    actions: []
+  backgorund: {fileID: 21300000, guid: 52cab33aac63f014e936b18ba6986c53, type: 3}
+  nextScene: {fileID: 0}

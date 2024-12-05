@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1d7c97d2ea66cf459e782954c6eb474, type: 3}
-  m_Name: 1
+  m_Name: 10
   m_EditorClassIdentifier: 
   sentences:
-  - text: '...'
+  - text: Mientras tanto...
     speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
     actions: []
-  - text: (Una nueva alumna?)
-    speaker: {fileID: 11400000, guid: f815a4be615141944b63a7808e1c13fa, type: 2}
-    actions: []
-  backgorund: {fileID: 21300000, guid: f515a76e99d180749a47fbcd37be82ea, type: 3}
-  nextScene: {fileID: 11400000, guid: ee827b04b8337934a9269f5817d8adc2, type: 2}
+  backgorund: {fileID: 21300000, guid: 5d774c106b91ebb418eeff7197ef8f13, type: 3}
+  nextScene: {fileID: 11400000, guid: 27aedb4fa6896214a8e9ca74e70b5274, type: 2}

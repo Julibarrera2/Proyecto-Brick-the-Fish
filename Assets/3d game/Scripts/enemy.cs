@@ -6,7 +6,7 @@ using TMPro;
 
 public class enemy : MonoBehaviour
 {
-    int health = 20;
+    int health = 100;
     public TextMeshProUGUI uiHealth;
     public TextMeshProUGUI uiTimer;
     public GameManager gameManager;

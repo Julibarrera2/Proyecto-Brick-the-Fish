@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d7c97d2ea66cf459e782954c6eb474, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "A bueno pero mira quien es? Se\xF1orita perd\xF3n hoy no puedo me junto
+      con Main."
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -150, y: -85}
+      moveSpeed: 0
+  - text: "Si, hace 3000 a\xF1os que no te juntas con nosotras forra."
+    speaker: {fileID: 11400000, guid: 5086a67064ce3ec4d8102367c2db8f7b, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 5086a67064ce3ec4d8102367c2db8f7b, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -48, y: -85}
+      moveSpeed: 0
+  - text: "Perd\xF3n, pero sabes que me gusta."
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -24, y: -65}
+      moveSpeed: 0
+  - text: "Si, pero ya deber\xEDa ser ilegal lo simp que sos."
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: Bueno entendeme, creo que es la primera vez que me enamoro.
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "Entiendo pero nos est\xE1s reemplazando, encima por esa inestable."
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: No las estoy reemplaza- Para que? Dijiste inestable?
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: Que no sabes?
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: Que? no, no c, porque es inestable?
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "\xA1Tiene anorexia!"
+    speaker: {fileID: 11400000, guid: 5086a67064ce3ec4d8102367c2db8f7b, type: 2}
+    actions: []
+  - text: QUE?!
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: No te diste cuenta? esta full raquitica. conchuda
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: "No est\xE1 raqu\xEDtica! mirala bien, ademas no te parece un monton opinar
+      as\xED del cuerpo de otra persona, considerando que vos tambi\xE9n pasaste por
+      eso. Ademas que tiene incluso m\xE1s curvas que vos."
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: Si, en el cerebro tiene curvas!
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: Que se supone que significa eso?
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "Tipo\u2026 corte\u2026 osea esta completamente alienada."
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: "Habl\xF3."
+    speaker: {fileID: 11400000, guid: 5086a67064ce3ec4d8102367c2db8f7b, type: 2}
+    actions: []
+  - text: QUE MIERDA DECIS NEGRA DE MIERDA, SE SUPONE QUE ESTAS DE MI LADO!
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: "Bueno perd\xF3n, y no me digas negra, no est\xE1 bien, igualmente FISH
+      tiene raz\xF3n, es inestable y deber\xEDas alejarte de ella."
+    speaker: {fileID: 11400000, guid: 5086a67064ce3ec4d8102367c2db8f7b, type: 2}
+    actions: []
+  - text: Eso.
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: "Igual como si me importara? Yo soy igual o peor de inestable, deber\xEDan
+      decirle a ella que se aleje de m\xED."
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  - text: "Bueno sabes que, hace lo que quieras, yo te advert\xED, despu\xE9s no vengas
+      llorando."
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: Vamonos Jaz, ya termina con esta bolita.
+    speaker: {fileID: 11400000, guid: 9a7530cb6188f574281ecf424de3e093, type: 2}
+    actions: []
+  - text: "\u201CVamonos Jaz, ya termina con esta bolita.\u201D Encima ni siquiera
+      son boliviana, es completamente inmaduro que lo use como insulto, pescado psic\xF3tico
+      de mierda."
+    speaker: {fileID: 11400000, guid: a11b0cb73bb3e7949bbb4c7d1a1abccd, type: 2}
+    actions: []
+  backgorund: {fileID: 21300000, guid: 52cab33aac63f014e936b18ba6986c53, type: 3}
+  nextScene: {fileID: 11400000, guid: 7aa854d902cce6347b90befb1296bd67, type: 2}
