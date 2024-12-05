@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -583,7 +583,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7779922, y: 1}
+    m_SensorSize: {x: 1.2307693, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -599,7 +599,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.09620449, y: -0.0019728108, z: 0.00019067802, w: 0.99535966}
+  m_LocalRotation: {x: 0.0962046, y: -0.0013733127, z: 0.00013273481, w: 0.9953607}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -683,7 +683,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.12479899, y: -0.0020154277, z: 0.00025864772, w: 0.99218}
+  m_LocalRotation: {x: 0.12479917, y: -0.0014000703, z: 0.00017937826, w: 0.99218106}
   m_LocalPosition: {x: -188.5, y: 12.212674, z: -18.875359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -763,7 +763,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8ba5a500170f10a4ab5463236d5a223f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.34
   m_Pitch: 1
@@ -857,7 +857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606514863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -162.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2016914064}
@@ -1415,7 +1415,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7779922, y: 1}
+    m_SensorSize: {x: 1.2307693, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1431,7 +1431,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130832309}
-  m_LocalRotation: {x: 0.17536357, y: -0.0020878923, z: 0.0003719042, w: 0.9845015}
+  m_LocalRotation: {x: 0.17536376, y: -0.0014453004, z: 0.000257443, w: 0.9845026}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2141,7 +2141,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7779922, y: 1}
+    m_SensorSize: {x: 1.2307693, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4898,7 +4898,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7779922, y: 1}
+    m_SensorSize: {x: 1.2307693, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6253,8 +6253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5480d13b6f23a448ed64bf50d186da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieSound: {fileID: 8300000, guid: 7af3fc20ce55cb7418b0ead3b79e26c4, type: 3}
-  hitSound: {fileID: 8300000, guid: 0475b32f269d39c459177dea8f602cae, type: 3}
   corners:
   - {x: -158.1, y: 0, z: 40}
   - {x: -223, y: 0, z: 74}
@@ -6286,6 +6284,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a47d2ea2cbf2a45947cebcf8e1c376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieSound: {fileID: 8300000, guid: 7af3fc20ce55cb7418b0ead3b79e26c4, type: 3}
+  hitSound: {fileID: 8300000, guid: d9deaebd7a0e5d74881581b0322a9a5c, type: 3}
   uiHealth: {fileID: 110870945}
   uiTimer: {fileID: 1523790818}
   gameManager: {fileID: 2098850508}
@@ -8749,13 +8749,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed by
-    Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-    'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-    'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform
-    'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightFoot'\n\tand more ...\n\tFrom
-    animation clip 'mixamo.com'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -10544,8 +10538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5480d13b6f23a448ed64bf50d186da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieSound: {fileID: 0}
-  hitSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -10695,13 +10687,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed by
-    Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-    'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-    'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform
-    'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightFoot'\n\tand more ...\n\tFrom
-    animation clip 'mixamo.com'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -13672,8 +13658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5480d13b6f23a448ed64bf50d186da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieSound: {fileID: 0}
-  hitSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -15525,8 +15509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5480d13b6f23a448ed64bf50d186da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieSound: {fileID: 0}
-  hitSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -19750,8 +19732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5480d13b6f23a448ed64bf50d186da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieSound: {fileID: 0}
-  hitSound: {fileID: 0}
   corners:
   - {x: -70, y: 0, z: 40}
   - {x: 67, y: 0, z: 75}
@@ -20779,13 +20759,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed by
-    Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-    'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-    'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform
-    'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightFoot'\n\tand more ...\n\tFrom
-    animation clip 'mixamo.com'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
