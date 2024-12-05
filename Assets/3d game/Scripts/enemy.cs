@@ -12,7 +12,7 @@ public class enemy : MonoBehaviour
     public TextMeshProUGUI uiHealth;
     public TextMeshProUGUI uiTimer;
     public GameManager gameManager;
-    float time = 10f;
+    float time = 180f;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("PostProcessing"))
