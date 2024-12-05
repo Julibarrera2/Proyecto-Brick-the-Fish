@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,6 +25,7 @@ public class enemy : MonoBehaviour
         {
             Destroy(collision.gameObject);
             health -= 20;
+            GetComponent<Animator>().SetTrigger("hit");
             if (alone) uiHealth.text = Mathf.Clamp(health, 0, 100).ToString();
             else
             {
