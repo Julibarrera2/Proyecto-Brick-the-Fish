@@ -38,11 +38,11 @@ public class enemy : MonoBehaviour
 
     private void Update()
     {
-        if (!alone && int.Parse(uiHealth.text) <= 0) gameManager.StartCoroutine(gameManager.Win());
         if (health <= 0)
         {
             AudioManager.Instance.PlaySound(dieSound);
             Destroy(gameObject);
+            if (!alone && int.Parse(uiHealth.text) <= 0) gameManager.StartCoroutine(gameManager.Win());
         }
     }
 }
