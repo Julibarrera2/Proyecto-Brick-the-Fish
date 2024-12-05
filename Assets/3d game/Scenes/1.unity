@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 10.340794, z: -18.875359}
+  m_FollowOffset: {x: 0, y: 11.842674, z: -18.875359}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -583,7 +583,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7779922, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -599,7 +599,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.061951336, y: -0.0014904636, z: 0.000092514005, w: 0.9980781}
+  m_LocalRotation: {x: 0.09620449, y: -0.0019728108, z: 0.00019067802, w: 0.99535966}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -683,8 +683,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.09063824, y: -0.0015216563, z: 0.00014207709, w: 0.99588275}
-  m_LocalPosition: {x: -188.5, y: 10.7107935, z: -18.875359}
+  m_LocalRotation: {x: 0.12479899, y: -0.0020154277, z: 0.00025864772, w: 0.99218}
+  m_LocalPosition: {x: -188.5, y: 12.212674, z: -18.875359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 10.340794, z: -18.875359}
+  m_FollowOffset: {x: 0, y: 11.842674, z: -18.875359}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1086,7 +1086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 10.340794, z: -18.875359}
+  m_FollowOffset: {x: 0, y: 11.842674, z: -18.875359}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1415,7 +1415,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7779922, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1431,7 +1431,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130832309}
-  m_LocalRotation: {x: 0.1414368, y: -0.0015744005, z: 0.00022493968, w: 0.989946}
+  m_LocalRotation: {x: 0.17536357, y: -0.0020878923, z: 0.0003719042, w: 0.9845015}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2141,7 +2141,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7779922, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2157,7 +2157,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643064144}
-  m_LocalRotation: {x: 0.17066292, y: -2.9378516e-25, z: 5.0884742e-26, w: 0.9853295}
+  m_LocalRotation: {x: 0.20441402, y: 3.9102699e-25, z: -8.1655596e-26, w: 0.9788846}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4898,7 +4898,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7779922, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4961,7 +4961,7 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 0.2
   m_Orbits:
-  - m_Height: 21.5
+  - m_Height: 8
     m_Radius: 16.92
   - m_Height: 15.4
     m_Radius: 18
@@ -4980,7 +4980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725828091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -188.5, y: 10.7107935, z: -18.875359}
+  m_LocalPosition: {x: -188.5, y: 12.212674, z: -18.875359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1643064146}
@@ -5058,7 +5058,7 @@ MonoBehaviour:
   controller: {fileID: 1792839515}
   anim: {fileID: 1725080193}
   cam: {fileID: 534669905}
-  speed: 6
+  speed: 10
   gravity: -45
   jumpHeight: 3
   groundCheck: {fileID: 1890257791}
@@ -6212,7 +6212,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 12
+  m_Speed: 20
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

@@ -4,11 +4,8 @@ using UnityEngine.SceneManagement;
 public class Scenes : MonoBehaviour
 {
 
-    public void LoadScene()
+    public void LoadScene(string sceneName)
     {
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(1, LoadSceneMode.Single);
-        }
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }
