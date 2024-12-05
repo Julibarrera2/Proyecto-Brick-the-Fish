@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
-    [SerializeField] private AudioClip jumpSound, walkSound, throwSound, finishSound, rechargeSound, habilitiesSound, outoftimeSound;
+    [SerializeField] private AudioClip jumpSound, walkSound, throwSound, finishSound, rechargeSound, habilitiesSound;
 
     public CharacterController controller;
     public Animator anim;

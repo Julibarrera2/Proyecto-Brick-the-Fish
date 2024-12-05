@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -428,7 +428,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7759563, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -444,7 +444,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518941390}
-  m_LocalRotation: {x: 0.06195135, y: -0.0013770623, z: 0.00008547513, w: 0.9980782}
+  m_LocalRotation: {x: 0.061951276, y: -0.001975988, z: 0.0001226508, w: 0.9980772}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -528,7 +528,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.090638615, y: -0.0005216997, z: -0.000041204836, w: 0.99588376}
+  m_LocalRotation: {x: 0.0906389, y: -0.0007458477, z: -0.000059662216, w: 0.9958836}
   m_LocalPosition: {x: 103.8, y: 10.7107935, z: -18.875359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1158,7 +1158,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7759563, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1174,7 +1174,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130832309}
-  m_LocalRotation: {x: 0.1414369, y: 0.0010098692, z: -0.00014428329, w: 0.9899468}
+  m_LocalRotation: {x: 0.14143683, y: 0.0014567709, z: -0.00020813361, w: 0.9899462}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1663,7 +1663,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7759563, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4420,7 +4420,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.2307693, y: 1}
+    m_SensorSize: {x: 1.7759563, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4576,7 +4576,6 @@ MonoBehaviour:
   finishSound: {fileID: 8300000, guid: a4608f3df68c1a449a8b5e79e73d9ba0, type: 3}
   rechargeSound: {fileID: 8300000, guid: c6026282a3ed9d344826f98627f580b7, type: 3}
   habilitiesSound: {fileID: 8300000, guid: d4b2ba9b7c116a144aa62263854cf06a, type: 3}
-  outoftimeSound: {fileID: 8300000, guid: 5a26b2c63a15cb645a74504bb24d46b8, type: 3}
   controller: {fileID: 1792839515}
   anim: {fileID: 1725080193}
   cam: {fileID: 534669905}
@@ -4751,6 +4750,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c41936ca6c904241a12a29730e2099d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  victorySound: {fileID: 8300000, guid: a4608f3df68c1a449a8b5e79e73d9ba0, type: 3}
+  loseSound: {fileID: 8300000, guid: 5a26b2c63a15cb645a74504bb24d46b8, type: 3}
+  uiTimer: {fileID: 0}
 --- !u!4 &2098850509
 Transform:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private AudioClip victorySound, loseSound;
     public TextMeshProUGUI uiTimer;
     float time = 180f;
     bool ended;
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
             time -= Time.deltaTime;
             uiTimer.text = ((int)(time / 60)).ToString() + ":" + (Mathf.Clamp((int)(time % 60), 0, 60)).ToString("D2");
             if (time <= 0) SceneManager.LoadSceneAsync("perder");
+            AudioManager.Instance.PlaySound(loseSound);
         }
     }
 
@@ -33,5 +35,6 @@ public class GameManager : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "1") SceneManager.LoadSceneAsync("ganar1");
         if (SceneManager.GetActiveScene().name == "2") SceneManager.LoadSceneAsync("ganar2");
         if (SceneManager.GetActiveScene().name == "3") SceneManager.LoadSceneAsync("ganar3");
+        AudioManager.Instance.PlaySound(victorySound);
     }
 }
