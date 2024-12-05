@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class enemy : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class enemy : MonoBehaviour
     public TextMeshProUGUI uiHealth;
     public TextMeshProUGUI uiTimer;
     public GameManager gameManager;
-    float time = 180f;
+    float time = 10f;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("PostProcessing"))
@@ -24,12 +25,12 @@ public class enemy : MonoBehaviour
     private void Update()
     {
         time -= Time.deltaTime;
-        uiTimer.text = (time / 60).ToString() + ":" + (time % 60).ToString();
-        //GANAR
+        uiTimer.text = ((int)(time / 60)).ToString() + ":" + (Mathf.Clamp((int)(time % 60), 0 , 60)).ToString("D2");
         if (health <= 0)
         {
             gameManager.StartCoroutine(gameManager.Win());
             Destroy(gameObject);
         }
+        if (time <= 0) SceneManager.LoadSceneAsync("perder1");
     }
 }

@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Scenes : MonoBehaviour
 {
-
-    public void LoadScene(string sceneName)
+    public Image background;
+    private void Update()
     {
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        if (background.sprite.name == "END" && Input.GetKeyDown(KeyCode.R)) SceneManager.LoadSceneAsync("1");
     }
 }
