@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/REALVISUAL.unity
-    guid: 776d19ec726fffc47a7b5b2f3b26b238
-  - enabled: 1
     path: Assets/Scenes/HomeScreen.unity
     guid: 0650b3db7b1ec8f4cbd5de01d0a7060e
+  - enabled: 1
+    path: Assets/Scenes/REALVISUAL.unity
+    guid: 776d19ec726fffc47a7b5b2f3b26b238
   - enabled: 1
     path: Assets/Scenes/Config1.unity
     guid: be18706d8384e2649aa498f664354a29

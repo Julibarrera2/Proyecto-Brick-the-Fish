@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5aa486e8f75ddac45910c8e41d2e4c30, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3fd4e4780549a664bb2065829e003533, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -783,7 +783,6 @@ GameObject:
   - component: {fileID: 1116451106}
   - component: {fileID: 1116451105}
   - component: {fileID: 1116451104}
-  - component: {fileID: 1116451108}
   - component: {fileID: 1116451109}
   m_Layer: 5
   m_Name: Canvas
@@ -873,21 +872,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1116451108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116451103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2b1ebdd0dfc094fb7211415fa5d473, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 3ecc5ebca49c98549b6e34361ab74ffa, type: 2}
-  bottomBar: {fileID: 1595491555}
-  backgroundController: {fileID: 1313469590}
 --- !u!95 &1116451109
 Animator:
   serializedVersion: 3
@@ -970,7 +954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f515a76e99d180749a47fbcd37be82ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3fd4e4780549a664bb2065829e003533, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

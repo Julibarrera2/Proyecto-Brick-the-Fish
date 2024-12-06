@@ -81,5 +81,5 @@ MonoBehaviour:
   - text: "Real, igualmente eso no es lo peor\u2026."
     speaker: {fileID: 11400000, guid: a11c06ba07201134080983a04a9ac5dd, type: 2}
     actions: []
-  backgorund: {fileID: 21300000, guid: 52cab33aac63f014e936b18ba6986c53, type: 3}
+  backgorund: {fileID: 21300000, guid: d87d29079ac9ef34fb296505065d483a, type: 3}
   nextScene: {fileID: 11400000, guid: 3532118b9a7b8964ab250f2c209b61e7, type: 2}
